@@ -1,0 +1,1670 @@
+/* ====================== Full Project Global CSS Start ============================ */
+body {
+  font-family: "Inter", sans-serif;
+  font-optical-sizing: auto;
+  /* font-weight: ;
+  font-style: ; */
+}
+
+a {
+  text-decoration: none;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {}
+
+.background-ats {
+  /* background-attachment: fixed; */
+}
+
+.background-res {
+  background-position: center center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+/* -------------- button custom class ------------- */
+.buy-now-and-details-custom-btn {
+  width: 130px;
+  height: 40px;
+  color: #fff;
+  border-radius: 5px;
+  padding: 10px 25px;
+  font-family: 'Lato', sans-serif;
+  font-weight: 500;
+  background: transparent;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  position: relative;
+  display: inline-block;
+  box-shadow: inset 2px 2px 2px 0px rgba(255, 255, 255, .5),
+    7px 7px 20px 0px rgba(0, 0, 0, .1),
+    4px 4px 5px 0px rgba(0, 0, 0, .1);
+  outline: none;
+}
+
+/* -------------- button custom class ------------- */
+/* -------- Buy now button--------- */
+/* 12 */
+.btn-12 {
+  position: relative;
+  right: 20px;
+  bottom: 20px;
+  border: none;
+  box-shadow: none;
+  width: 130px;
+  height: 40px;
+  line-height: 42px;
+  -webkit-perspective: 230px;
+  perspective: 230px;
+}
+
+.btn-12 span {
+  background: rgb(0, 172, 238);
+  background: linear-gradient(0deg, hsl(22, 84%, 52%) 0%, rgb(235 106 31) 100%);
+  display: block;
+  position: absolute;
+  width: 130px;
+  height: 40px;
+  box-shadow: inset 2px 2px 2px 0px rgba(255, 255, 255, .5),
+    7px 7px 20px 0px rgba(0, 0, 0, .1),
+    4px 4px 5px 0px rgba(0, 0, 0, .1);
+  border-radius: 5px;
+  margin: 0;
+  text-align: center;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  -webkit-transition: all .3s;
+  transition: all .3s;
+  color: white;
+}
+
+.btn-12 span:nth-child(1) {
+  box-shadow:
+    -7px -7px 20px 0px #fff9,
+    -4px -4px 5px 0px #fff9,
+    7px 7px 20px 0px #0002,
+    4px 4px 5px 0px #0001;
+  -webkit-transform: rotateX(90deg);
+  -moz-transform: rotateX(90deg);
+  transform: rotateX(90deg);
+  -webkit-transform-origin: 50% 50% -20px;
+  -moz-transform-origin: 50% 50% -20px;
+  transform-origin: 50% 50% -20px;
+}
+
+.btn-12 span:nth-child(2) {
+  -webkit-transform: rotateX(0deg);
+  -moz-transform: rotateX(0deg);
+  transform: rotateX(0deg);
+  -webkit-transform-origin: 50% 50% -20px;
+  -moz-transform-origin: 50% 50% -20px;
+  transform-origin: 50% 50% -20px;
+}
+
+.btn-12:hover span:nth-child(1) {
+  box-shadow: inset 2px 2px 2px 0px rgba(255, 255, 255, .5),
+    7px 7px 20px 0px rgba(0, 0, 0, .1),
+    4px 4px 5px 0px rgba(0, 0, 0, .1);
+  -webkit-transform: rotateX(0deg);
+  -moz-transform: rotateX(0deg);
+  transform: rotateX(0deg);
+}
+
+.btn-12:hover span:nth-child(2) {
+  box-shadow: inset 2px 2px 2px 0px rgba(255, 255, 255, .5),
+    7px 7px 20px 0px rgba(0, 0, 0, .1),
+    4px 4px 5px 0px rgba(0, 0, 0, .1);
+  color: transparent;
+  -webkit-transform: rotateX(-90deg);
+  -moz-transform: rotateX(-90deg);
+  transform: rotateX(-90deg);
+}
+
+/* -------- Buy now button--------- */
+
+/* --------------------- Details Button----------------- */
+/* 2 */
+.btn-2 {
+  border: none;
+  padding: 7.3px;
+  border-radius: 5px;
+  color: #eb6a1f;
+  margin-top: 2px;
+  font-weight: 600;
+  border: 1px solid #eb6a1f;
+}
+
+.btn-2:hover {
+  background: rgb(96, 9, 240);
+  background: linear-gradient(0deg, rgb(235 106 31) 100%, rgb(235 106 31) 100%);
+  color: white;
+  border: none;
+}
+
+.btn-2:before {
+  height: 0%;
+  width: 2px;
+}
+
+.btn-2:hover {
+  box-shadow: 4px 4px 6px 0 rgba(255, 255, 255, .5),
+    -4px -4px 6px 0 rgba(116, 125, 136, .5),
+    inset -4px -4px 6px 0 rgba(255, 255, 255, .2),
+    inset 4px 4px 6px 0 rgba(0, 0, 0, .4);
+}
+
+/* --------------------- Details Button----------------- */
+/* --------------------- Head Navber Start ------------- */
+#Header .main-logo img {
+  width: 176px;
+  height: 75px;
+}
+
+#Header .search_button_area {
+  /* width: 100%; */
+  max-width: 300px;
+  margin-right: 10px;
+}
+
+#Header .search_button_area .input-group-text {
+  background-color: rgba(229, 229, 236, 0.315);
+  border-radius: 25px 0 0 25px;
+}
+
+#Header .search_button_area .form-control {
+  border-radius: 0 25px 25px 0;
+  background-color: rgba(229, 229, 236, 0.315);
+}
+
+#Header .search_button_area.input-group {
+  background-color: #f8f9fa;
+  border-radius: 20px;
+  overflow: hidden;
+  box-shadow: 0px 0px 5px rgb(245, 245, 254, 0.1);
+}
+
+#Header .search_button_area .input-group i {
+  color: rgb(236, 90, 5);
+  background-color: rgb(244 226 223);
+  padding: 10px;
+  border-radius: 25px;
+  font-size: 20px;
+}
+
+#Header .search_button_area .input-group button {
+  border: 0 !important;
+  background-color: rgba(229, 229, 236, 0.212);
+  padding: 1px 0px !important;
+}
+
+#Header {
+  padding-bottom: 91px;
+}
+
+#Header .bg-body-tertiary {
+  background-color: white;
+  position: fixed;
+  width: 100%;
+  z-index: 1000;
+  height: auto;
+  -webkit-box-shadow: 0 2px 28px 0 rgba(0, 0, 0, 0.06);
+  box-shadow: 0 2px 28px 0 rgba(0, 0, 0, 0.06);
+  /* box-shadow: 0px 10px 10px #D6D6D6; */
+}
+
+#Header .login-button .btn_warning {
+  background-color: #eb6a1f;
+  color: white;
+  padding: 12px 25px;
+}
+
+#Header .navbar-collapse ul li a {
+  color: black;
+  font-size: 15px;
+  font-weight: 600;
+  padding: 20px;
+}
+
+#Header .navbar-collapse ul li a:hover {
+  color: #eb6a1f;
+  background-color: #f2f2f5;
+  border-bottom: 1.8px solid #eb6a1f;
+  border-radius: 10px;
+}
+
+/* --------------------- Head Navber End ------------- */
+
+/* -----------------------Footer Start ---------------- */
+#Footer {
+  background-color: rgb(25, 25, 25);
+}
+
+#Footer .container .row {
+  padding: 45px 0px 25px 0px;
+}
+
+#Footer .footer-logo-text {
+  color: white;
+}
+
+#Footer .footer-logo-content .footer-logo .footer-logo-image img {
+  width: 80px;
+  height: 80px;
+  left: 0;
+}
+
+#Footer .footer-logo-content .footer-logo-text p {
+  font-size: 15px;
+  line-height: 25px;
+  margin-top: 25px;
+}
+
+#Footer .footer-logo-content .footer-social-media-area .social-media-icon {
+  display: flex;
+  font-size: 30px;
+  padding-top: 15px;
+}
+
+#Footer .footer-logo-content .footer-social-media-area .social-media-icon i {
+  width: 50px;
+  text-align: center;
+  color: white;
+  border: 1px solid #eb6a1f;
+  border-radius: 50%;
+  padding: 10px;
+  margin-right: 20px;
+}
+
+#Footer .footer-logo-content .footer-social-media-area .social-media-icon i:hover {
+  color: white;
+  border: 1px solid white;
+  background-color: #eb6a1f;
+  transition: .7s ease-in-out;
+}
+
+#Footer .footer-others-div h3 {
+  color: white;
+  font-size: 22px;
+  font-weight: 700;
+}
+
+#Footer .footer-others-div ul li a {
+  color: white;
+  font-size: 15px;
+  line-height: 40px;
+}
+
+#Footer .footer-others-div ul li a:hover {
+  color: #eb6a1f;
+}
+
+#Footer .footer-others-div ul {
+  padding-left: 0;
+  list-style-type: none;
+}
+
+#Footer .footer-others-div ul li i {
+  color: #eb6a1f;
+  font-size: 20px;
+  margin-right: 8px;
+}
+
+#Footer .footer-others-div ul li i:hover {
+  color: white;
+}
+
+#Footer .footer-others-div p i {
+  color: #eb6a1f;
+  font-size: 20px;
+  margin-right: 8px;
+}
+
+#Footer .footer-others-div p i:hover {
+  color: white;
+}
+
+#Footer .footer-others-div p a {
+  color: white;
+  font-size: 15px;
+  line-height: 25px;
+}
+
+#Footer .footer-others-div p span {
+  color: #eb6a1f;
+}
+
+#Footer .copy-right-section {
+  border-top: 1px solid rgb(58, 58, 58);
+  padding: 13px 0px;
+}
+
+#Footer .copy-right-section p {
+  text-align: center;
+  color: white;
+  margin-bottom: 0;
+}
+
+#Footer .copy-right-section p span a {
+  color: #eb6a1f;
+}
+
+#Footer .copy-right-section p span a:hover {
+  color: white;
+}
+
+/* -----------------------Footer End ---------------- */
+
+/* ----------------------Slick Slider Start ---------------- */
+.slick-prev,
+.slick-next {
+  width: 45px;
+}
+
+.slick-prev:before,
+.slick-next:before {
+  font-size: 45px;
+  opacity: .75;
+  color: #f5baba;
+}
+
+.slick-prev {
+  z-index: 1000;
+}
+
+/* ----------------------Slick Slider End---------------- */
+
+/* ====================== Full Project Global CSS End ============================ */
+
+/* =================================== Exam Page Start ========================================= */
+/* --------------------------------All Exams Section Start ----------------------------- */
+.all-exam-area {
+  margin-top: 35px;
+}
+
+#All_Exam .title-area p {
+  font-size: 14px;
+}
+
+#All_Exam .title-area span {
+  color: #eb6a1f;
+}
+
+.master-content-area .master-exam {
+  border: .5px solid rgb(230 225 225);
+  border-radius: 15px;
+}
+
+.master-content-area .master-exam .master-exam-image img {
+  width: 100%;
+  height: 207px;
+  border-radius: 15px 15px 0px 0px;
+}
+
+.master-exam-text-comtent .master-exam-duration p {
+  background-color: #0aa350;
+  padding: 3px 0px 3px 10px;
+  width: 21%;
+  color: white;
+  border-radius: 5px;
+  font-size: 15px;
+  margin-bottom: 7px;
+}
+
+.master-content-area .master-exam .master-exam-text-comtent .master-exam-title h2 {
+  margin-bottom: 0px;
+  font-size: 30px;
+}
+
+.master-content-area .master-exam .master-exam-text-comtent .master-exam-rating i {
+  color: #eb6a1f;
+  font-size: 14px;
+}
+
+.master-content-area .master-exam .master-exam-text-comtent .master-exam-price .master-exam-discount-price {
+  font-size: 24px;
+  font-weight: 700;
+}
+
+.master-exam-text-comtent .master-exam-button {
+  display: flex;
+}
+
+.master-exam-text-comtent .master-exam-button .buy-now-button button {
+  background-color: white;
+}
+
+.master-exam-text-comtent .master-exam-button .details-button {
+  margin-right: 20px;
+}
+
+.exam-package-area .package-exam-image img {
+  width: 100%;
+  height: 207px;
+  border-radius: 15px 15px 0px 0px;
+}
+
+.exam-package-area .package-exam-content .package-exam-title h2 {
+  margin-bottom: 0px;
+  font-size: 22px;
+}
+
+#All_Exam .exam-package-area,
+#My_exams .exam-package-area {
+  border: .5px solid rgb(230 225 225);
+  border-radius: 15px;
+}
+
+.exam-package-area .package-exam-content .package-exam-rating i {
+  color: #eb6a1f;
+  font-size: 14px;
+  padding: 7px 0;
+}
+
+.exam-package-area .package-exam-content .button-and-price .package-exam-discount-price {
+  font-size: 24px;
+  font-weight: 700;
+}
+
+.exam-package-area .package-exam-content .button-and-price .package-exam-button .package-exam-details {
+  color: #eb6a1f;
+  border: 0;
+  margin-bottom: 15px;
+}
+
+.exam-package-area .package-exam-content .button-and-price .package-exam-button button {
+  background-color: white;
+}
+
+/* --------------------------------All Exams Section End ------------------------------- */
+
+/* -------------------------------- My Exams Section Start ---------------------------- */
+#My_exams {
+  margin: 50px 0;
+}
+
+#My_exams .my-exam-category-area .my-exam-category {
+  display: flex;
+  border: 1px solid rgb(240, 202, 180);
+  background-color: rgb(243, 241, 241);
+  border-radius: 10px;
+}
+
+#My_exams .my-exam-category-area .my-exam-category:hover {
+  box-shadow: 5px 3px 15px -3px;
+}
+
+#My_exams .my-exam-category-area .my-exam-category .my-exam-category-icon i {
+  background-color: #589fd3;
+  font-size: 30px;
+  padding: 18px 12px;
+  color: white;
+  border-radius: 10px;
+}
+
+#My_exams .my-exam-category-area .my-exam-category {
+  padding: 15px;
+}
+
+#My_exams .my-exam-category-area .my-exam-category .my-exam-category-icon {
+  padding: 0px 15px 0px 0px;
+}
+
+#My_exams .my-exam-category-area .my-exam-category .my-exam-category-content h3 {
+  font-size: 24px;
+  font-weight: 700;
+  margin-bottom: 2px;
+}
+
+#My_exams .my-exam-category-area .my-exam-category .my-exam-category-content p {
+  font-size: 12px;
+  margin-bottom: 0;
+}
+
+#My_exams .my-exam-category-area .col-md-3 {
+  padding-top: 24px;
+}
+
+/* -------------------------------- My Exams Section End ---------------------------- */
+/* -------------------------------- App Store Section Start ---------------------------- */
+#App_store .style-2phone-image img {
+  width: 520px;
+  height: 480px;
+}
+
+#App_store .download-text {
+  color: white;
+  padding-top: 40px;
+}
+
+#App_store .download-text h2 {
+  font-size: 30px;
+  font-weight: 700;
+  color: #eb6a1f;
+}
+
+#App_store .download-text h5 {
+  font-size: 18px;
+  /* font-weight: 600; */
+}
+
+#App_store .rattingandflowers-area {
+  width: 80%;
+  background-color: rgb(226 83 245 / 97%);
+  border-radius: 10px;
+  display: flex;
+  padding: 15px;
+  margin: 30px 0;
+}
+
+#App_store .rattingandflowers-area .learner-count {
+  text-align: center;
+  border-right: 1px solid white;
+  color: white;
+  padding: 20px 20px 5px 20px;
+}
+
+#App_store .rattingandflowers-area .learner-count h2 {
+  font-size: 32px;
+  font-weight: 700;
+}
+
+#App_store .rattingandflowers-area .learner-count p {
+  font-size: 16px;
+}
+
+#App_store .rattingandflowers-area .review-count {
+  text-align: center;
+  border-right: 1px solid white;
+  color: white;
+  padding: 20px 20px 5px 20px;
+}
+
+#App_store .rattingandflowers-area .review-count h2 {
+  font-size: 32px;
+  font-weight: 700;
+}
+
+#App_store .rattingandflowers-area .review-count p {
+  font-size: 16px;
+}
+
+#App_store .rattingandflowers-area .courses-count {
+  text-align: center;
+  /* border-right: 1px solid white; */
+  color: white;
+  padding: 20px 20px 5px 20px;
+}
+
+#App_store .rattingandflowers-area .courses-count h2 {
+  font-size: 32px;
+  font-weight: 700;
+}
+
+#App_store .rattingandflowers-area .courses-count p {
+  font-size: 16px;
+}
+
+#App_store .download-hint {
+  color: white;
+  font-size: 18px;
+}
+
+#App_store .download-store-path {
+  display: flex;
+  padding: 20px 20px 20px 0;
+}
+
+#App_store .download-store-path .app-store img,
+#App_store .download-store-path .play-store img {
+  width: 250px;
+  height: 70px;
+  margin-right: 20px;
+}
+
+#App_store .download-store-path .play-store img {
+  width: 250px;
+  height: 70px;
+}
+
+/* -------------------------------- App Store Section End ---------------------------- */
+/* =================================== Exam Page End =========================================== */
+
+/* =================================== Exam Question Start End =========================================== */
+.background-res-qus-paper {
+  background-repeat: no-repeat;
+}
+
+#Question-head .exam-title h3 {
+  font-size: 30px;
+  font-weight: 700;
+}
+
+#Question-head .exam-title p {
+  font-size: 18px;
+  font-weight: 600;
+  color: #eb6a1f;
+}
+
+#Question-head .exam-title {
+  padding: 20px 20px 20px 35px;
+}
+
+#Question-head .exam-timer {
+  padding: 20px;
+  display: flex;
+  background-color: rgba(243, 113, 13, 0.897);
+  width: 72%;
+  margin-top: 3px;
+  border-radius: 10px;
+  margin-left: 14%;
+}
+
+#Question-head .exam-timer .exam-hours {
+  background-color: rgb(30, 19, 11);
+  border-radius: 10px;
+  padding: 0px 20px;
+  text-align: center;
+  margin-right: 10px;
+  width: 90px;
+}
+
+#Question-head .exam-timer .exam-hours h3 {
+  color: white;
+  font-size: 28px;
+  margin-bottom: 0;
+  margin-top: 10px;
+}
+
+#Question-head .exam-timer .exam-hours p {
+  color: white;
+  font-size: 14px;
+}
+
+#Question-head .exam-timer .exam-minutes {
+  background-color: rgb(30, 19, 11);
+  border-radius: 10px;
+  padding: 0px 15px;
+  text-align: center;
+  margin-right: 10px;
+  width: 80px;
+}
+
+#Question-head .exam-timer .exam-minutes h3 {
+  color: white;
+  font-size: 28px;
+  margin-bottom: 0;
+  margin-top: 10px;
+}
+
+#Question-head .exam-timer .exam-minutes p {
+  color: white;
+  font-size: 14px;
+}
+
+#Question-head .exam-timer .exam-seconds {
+  background-color: rgb(30, 19, 11);
+  border-radius: 10px;
+  padding: 0px 15px;
+  text-align: center;
+  margin-right: 20px;
+  width: 80px;
+}
+
+#Question-head .exam-timer .exam-seconds h3 {
+  color: white;
+  font-size: 28px;
+  margin-bottom: 0;
+  margin-top: 10px;
+}
+
+#Question-head .exam-timer .exam-seconds p {
+  color: white;
+  font-size: 14px;
+}
+
+#All-Questions .question-title {
+  display: flex;
+}
+
+#All-Questions .question-title h5 {
+  font-size: 20px;
+  font-weight: 600;
+  line-height: 30px;
+  margin-bottom: 15px;
+}
+
+#All-Questions .question-title .anser-mark {
+  font-size: 16px;
+  font-weight: 500;
+  padding: 8px;
+  height: 40px;
+  background-color: rgb(255, 238, 232);
+  border-radius: 10px;
+  color: #eb6a1f;
+}
+
+#All-Questions .question-options .option {
+  border: 1px solid #dbd8d8;
+  border-radius: 10px;
+  margin-bottom: 12px;
+  height: 48px;
+}
+
+#All-Questions .question-options .option p {
+  font-size: 16px;
+  font-weight: 700;
+  margin-bottom: 0;
+  padding: 10px;
+}
+
+#All-Questions .question-options .option {
+  display: flex;
+}
+
+#All-Questions .question-options .option:hover .confirm-button .ok-button {
+  display: block;
+}
+
+#All-Questions .question-options .option:hover .confirm-button .cross-button {
+  display: block;
+}
+
+#All-Questions .question-options .option .confirm-button {
+  display: flex;
+}
+
+#All-Questions .question-options .option .confirm-button i {
+  font-size: 25px;
+  color: white;
+}
+
+#All-Questions .question-options .option .confirm-button .ok-button {
+  display: none;
+  background-color: #0aa350;
+  padding: 10px;
+  border-radius: 10px 0px 0px 10px;
+}
+
+#All-Questions .question-options .option .confirm-button .cross-button {
+  display: none;
+  background-color: red;
+  padding: 10px;
+  border-radius: 0px 10px 10px 0px;
+}
+
+#All-Questions .exam-submit-button {
+  text-align: center;
+  margin-top: 20px;
+}
+
+#All-Questions .exam-submit-button a {
+  border: 1px solid orangered;
+  border-radius: 5px;
+  background-color: #eb6a1f;
+  color: white;
+  width: 80%;
+  padding: 10px;
+  font-size: 22px;
+}
+
+#All-Questions .exam-submit-button a:hover {
+  background-color: #cc782af8;
+}
+
+/* =================================== Exam Question Page End =========================================== */
+
+/* =================================== Exam Answer Page Start =========================================== */
+#Answer-head .answer-sheet-head {
+  border: 1px solid rgb(207, 207, 207);
+  border-radius: 5px;
+}
+
+#Answer-head .answer-sheet-head .answer-sheet-title {
+  border-bottom: 1px solid rgb(207, 207, 207);
+}
+
+#Answer-head .answer-sheet-head .answer-sheet-title h3 {
+  font-size: 28px;
+  font-weight: 700;
+  text-align: center;
+  padding: 10px;
+  margin-bottom: 0;
+}
+
+#Answer-head .answer-sheet-head .answer-sheet-total {
+  padding: 10px;
+  ;
+}
+
+#Answer-head .answer-sheet-head .exam-all-marks h6 {
+  font-size: 16px;
+  font-weight: 600;
+  padding: 6px;
+  margin-bottom: 0;
+}
+
+#Answer-head .answer-sheet-head .exam-all-marks h6 span {
+  font-size: 18px;
+  font-weight: 700;
+  color: #eb6a1f;
+}
+
+#Answer-head .answer-sheet-head .see-ranking-button {
+  margin-top: 25px;
+}
+
+#Answer-head .answer-sheet-head .see-ranking-button a {
+  border: 1px solid orangered;
+  border-radius: 5px;
+  background-color: #eb6a1f;
+  color: white;
+  width: 60%;
+  padding: 7px;
+  font-size: 20px;
+  text-align: center;
+}
+
+#Answer-head .answer-sheet-head .see-ranking-button a:hover {
+  background-color: #cc782af8;
+}
+
+/* ---------------------- */
+
+#All-Questions .question-options .option-1 {
+  border: 1px solid #dbd8d8;
+  border-radius: 10px;
+  margin-bottom: 12px;
+  height: 48px;
+}
+
+#All-Questions .question-options .option-1 p {
+  font-size: 16px;
+  font-weight: 700;
+  margin-bottom: 0;
+  padding: 10px;
+}
+
+#All-Questions .question-options .option-1 {
+  display: flex;
+}
+
+/* #All-Questions .question-options .option:hover .answered-button .ok-button{
+    display: block;
+  }
+  #All-Questions .question-options .option:hover .answered-button .cross-button{
+    display: block;
+  } */
+
+/* #All-Questions .question-options .option-1 .answered-button {
+    display: flex;
+  } */
+#All-Questions .question-options .option-1 .answered-button i {
+  font-size: 25px;
+  color: white;
+}
+
+#All-Questions .question-options .option-1 .answered-button .ok-button {
+  /* display: none; */
+  background-color: #0aa350;
+  padding: 10px;
+  border-radius: 0px 10px 10px 0px;
+}
+
+#All-Questions .question-options .option-1 .answered-button .cross-button {
+  /* display: none; */
+  background-color: red;
+  padding: 10px;
+  border-radius: 0px 10px 10px 0px;
+}
+
+/* ---------------------- */
+
+/* ---------------------- */
+#All-Questions .question-options .option-2 {
+  border: 1px solid #dbd8d8;
+  border-radius: 10px;
+  margin-bottom: 12px;
+  height: 48px;
+}
+
+#All-Questions .question-options .not-answered {
+  background-color: rgb(229, 255, 241);
+}
+
+#All-Questions .question-options .wrong-answered {
+  background-color: rgb(248, 206, 191);
+}
+
+#All-Questions .question-options .option-2 p {
+  font-size: 16px;
+  font-weight: 700;
+  margin-bottom: 0;
+  padding: 10px;
+}
+
+#All-Questions .question-options .option-2 {
+  display: flex;
+}
+
+/* #All-Questions .question-options .option:hover .answered-button .ok-button{
+    display: block;
+  }
+  #All-Questions .question-options .option:hover .answered-button .cross-button{
+    display: block;
+  } */
+
+/* #All-Questions .question-options .option-2 .answered-button {
+    display: flex;
+  } */
+#All-Questions .question-options .option-2 .answered-button i {
+  font-size: 25px;
+  color: white;
+}
+
+#All-Questions .question-options .option-2 .answered-button .ok-button {
+  /* display: none; */
+  background-color: #0aa350;
+  padding: 10px;
+  border-radius: 0px 10px 10px 0px;
+}
+
+#All-Questions .question-options .option-2 .answered-button .cross-button {
+  /* display: none; */
+  background-color: red;
+  padding: 10px;
+  border-radius: 0px 10px 10px 0px;
+}
+
+/* ---------------------- */
+
+
+/* ---------------------- */
+#All-Questions .question-options .option-3 {
+  border: 1px solid #dbd8d8;
+  border-radius: 10px;
+  margin-bottom: 12px;
+  height: 48px;
+}
+
+#All-Questions .question-options .option-3 p {
+  font-size: 16px;
+  font-weight: 700;
+  margin-bottom: 0;
+  padding: 10px;
+}
+
+#All-Questions .question-options .option-3 {
+  display: flex;
+}
+
+/* #All-Questions .question-options .option:hover .answered-button .ok-button{
+    display: block;
+  }
+  #All-Questions .question-options .option:hover .answered-button .cross-button{
+    display: block;
+  } */
+
+/* #All-Questions .question-options .option-3 .answered-button {
+    display: flex;
+  } */
+#All-Questions .question-options .option-3 .answered-button i {
+  font-size: 25px;
+  color: white;
+}
+
+#All-Questions .question-options .option-3 .answered-button .ok-button {
+  /* display: none; */
+  background-color: #0aa350;
+  padding: 10px;
+  border-radius: 0px 10px 10px 0px;
+}
+
+#All-Questions .question-options .option-3 .answered-button .cross-button {
+  /* display: none; */
+  background-color: red;
+  padding: 10px;
+  border-radius: 0px 10px 10px 0px;
+}
+
+/* ---------------------- */
+
+
+/* ---------------------- */
+#All-Questions .question-options .option-4 {
+  border: 1px solid #dbd8d8;
+  border-radius: 10px;
+  margin-bottom: 12px;
+  height: 48px;
+}
+
+#All-Questions .question-options .option-4 p {
+  font-size: 16px;
+  font-weight: 700;
+  margin-bottom: 0;
+  padding: 10px;
+}
+
+#All-Questions .question-options .option-4 {
+  display: flex;
+}
+
+/* #All-Questions .question-options .option:hover .answered-button .ok-button{
+    display: block;
+  }
+  #All-Questions .question-options .option:hover .answered-button .cross-button{
+    display: block;
+  } */
+
+/* #All-Questions .question-options .option-4 .answered-button {
+    display: flex;
+  } */
+#All-Questions .question-options .option-4 .answered-button i {
+  font-size: 25px;
+  color: white;
+}
+
+#All-Questions .question-options .option-4 .answered-button .ok-button {
+  /* display: none; */
+  background-color: #0aa350;
+  padding: 10px;
+  border-radius: 0px 10px 10px 0px;
+}
+
+#All-Questions .question-options .option-4 .answered-button .cross-button {
+  /* display: none; */
+  background-color: red;
+  padding: 10px;
+  border-radius: 0px 10px 10px 0px;
+}
+
+#All-Questions .question-title .anser-mark-wrong {
+  font-size: 16px;
+  font-weight: 500;
+  padding: 8px;
+  height: 40px;
+  width: 160px;
+  background-color: rgb(255, 238, 232);
+  border-radius: 10px;
+  color: #eb6a1f;
+}
+
+#All-Questions .question-title .anser-mark-no {
+  font-size: 16px;
+  font-weight: 500;
+  padding: 8px;
+  height: 40px;
+  width: 160px;
+  background-color: rgb(255, 238, 232);
+  border-radius: 10px;
+  color: #eb6a1f;
+}
+
+/* ---------------------- */
+/* =================================== Exam Answer Page End =========================================== */
+/* =================================== Free Course Page Start =========================================== */
+#Free-service-banner .free-course-banner .free-course-banner-image img {
+  width: 100%;
+  height: 448px;
+}
+
+#Free-service-main .title-area p {
+  font-size: 14px;
+}
+
+#Free-service-main .title-area span {
+  color: #eb6a1f;
+}
+
+.background-res-free-banner {
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+#Free-service-main .free-service-category .my-exam-category {
+  padding: 15px;
+  width: 300px;
+}
+
+#Free-service-main .free-service-category .my-exam-category {
+  display: flex;
+  background-color: white;
+  border: 1px solid rgb(247, 244, 243);
+  border-radius: 10px;
+}
+
+#Free-service-main .free-service-category .my-exam-category:hover {
+  border: 1px solid rgb(235 158 114);
+  box-shadow: 5px 3px 15px -3px;
+}
+
+#Free-service-main .free-service-category .my-exam-category .my-exam-category-icon {
+  padding: 0px 15px 0px 0px;
+}
+
+#Free-service-main .free-service-category .my-exam-category .my-exam-category-icon i {
+  background-color: #589fd3;
+  font-size: 30px;
+  padding: 18px 12px;
+  color: white;
+  border-radius: 10px;
+}
+
+#Free-service-main .free-service-category .my-exam-category .my-exam-category-content h3 {
+  font-size: 24px;
+  font-weight: 700;
+  margin-bottom: 2px;
+}
+
+#Free-service-main .free-service-category .my-exam-category .my-exam-category-content p {
+  font-size: 12px;
+  margin-bottom: 0;
+}
+
+.background-res-free-service {
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+#Free-service-main .exam-package-area {
+  border: .5px solid rgb(230 225 225);
+  border-radius: 15px;
+}
+
+/* =================================== Free Course Page End =========================================== */
+
+/* =================================== Home  Page Start =========================================== */
+#Home_add .home-1st-add-image img {
+  width: 100%;
+  height: 125px;
+}
+
+/* ----------------- Home Slider Section Start ---------------------------- */
+#Home_main_banner .home-1st-slide .home-1st-slide-img img {
+  width: 275px;
+  height: 330;
+}
+
+#Home_main_banner .main-banner-video iframe {
+  border-radius: 12px;
+}
+
+#Home_main_banner .home-video-feature-area .home-feature-video iframe {
+  border-radius: 12px;
+}
+
+#Home_main_banner .main-banner-video {
+  margin-bottom: 5px;
+}
+
+/* ----------------- Home Slider Section End ---------------------------- */
+
+/* ----------------- Home Category Section Start ---------------------------- */
+#Home_category .title-area p {
+  font-size: 14px;
+}
+
+#Home_category .title-area span {
+  color: #eb6a1f;
+}
+
+#Home_category .home-category-area .my-home-category {
+  display: flex;
+  border: 1px solid white;
+  background-color: rgb(236, 234, 234);
+  border-radius: 10px;
+}
+
+#Home_category .home-category-area .my-home-category:hover {
+  border: 1px solid rgb(240, 202, 180);
+  box-shadow: 5px 3px 15px -3px;
+}
+
+#Home_category .home-category-area .my-home-category .my-home-category-icon img {
+  border-radius: 10px;
+  width: 70px;
+  height: 70px;
+}
+
+#Home_category .home-category-area .my-home-category {
+  padding: 15px;
+}
+
+#Home_category .home-category-area .my-home-category .my-home-category-icon {
+  padding: 0px 15px 0px 0px;
+}
+
+#Home_category .home-category-area .my-home-category .my-home-category-content {
+  margin: auto;
+}
+
+#Home_category .home-category-area .my-home-category .my-home-category-content h3 {
+  font-size: 24px;
+  font-weight: 700;
+  margin-bottom: 2px;
+}
+
+#Home_category .home-category-area .my-home-category .my-home-category-content p {
+  font-size: 13px;
+  margin-bottom: 0;
+}
+
+#Home_category .home-category-area .col-md-4 {
+  padding-top: 24px;
+}
+
+/* ----------------- Home Category Section End ---------------------------- */
+
+/* ----------------- Our Service Section Start ---------------------------- */
+#Our_service .title-area p {
+  font-size: 14px;
+}
+
+#Our_service .title-area h2 {
+  font-size: 2.5rem;
+  color: white;
+}
+
+#Our_service .title-area span {
+  color: #eb6a1f;
+}
+
+#Our_service .home-services-area {
+  width: 70%;
+  margin: 40px 15%;
+}
+
+#Our_service .home-services-area .my-home-service {
+  display: flex;
+  border: 1px solid rgb(28, 39, 65);
+  background-color: rgb(28, 39, 65);
+  border-radius: 10px;
+}
+
+#Our_service .home-services-area .my-home-service:hover {
+  /* border: 1px solid rgb(28, 39, 65); */
+  /* transform: scale(1.1); */
+  box-shadow: 2px 6px 5px black;
+}
+
+#Our_service .home-services-area .my-home-service .my-home-service-icon img {
+  border-radius: 10px;
+  width: 70px;
+  height: 70px;
+}
+
+#Our_service .home-services-area .my-home-service {
+  padding: 15px;
+}
+
+#Our_service .home-services-area .my-home-service .my-home-service-icon {
+  padding: 0px 15px 0px 0px;
+}
+
+#Our_service .home-services-area .my-home-service .my-home-service-content {
+  margin: auto;
+}
+
+#Our_service .home-services-area .my-home-service .my-home-service-content h3 {
+  font-size: 24px;
+  font-weight: 700;
+  margin-bottom: 2px;
+  color: white;
+}
+
+#Our_service .home-services-area .my-home-service .my-home-service-content p {
+  font-size: 13px;
+  margin-bottom: 0;
+  color: white;
+}
+
+#Our_service .home-services-area .col-md-6 {
+  padding-top: 24px;
+}
+
+/* ----------------- Our Service Section End ---------------------------- */
+
+/* ----------------- Our Courses Section Start ---------------------------- */
+#Home_Our_courses {
+  padding: 46px 0;
+}
+
+#Home_Our_courses .title-area p {
+  font-size: 14px;
+}
+
+#Home_Our_courses .title-area h2 {
+  font-size: 2.5rem;
+}
+
+#Home_Our_courses .title-area span {
+  color: #eb6a1f;
+}
+
+#Home_Our_courses .home-course-category-area .my-course-category {
+  display: flex;
+  border: 1px solid rgb(240, 202, 180);
+  background-color: rgb(243, 241, 241);
+  border-radius: 10px;
+}
+
+#Home_Our_courses .home-course-category-area .my-course-category:hover {
+  box-shadow: 5px 3px 15px -3px;
+}
+
+#Home_Our_courses .home-course-category-area .my-course-category .my-course-category-icon i {
+  background-color: #589fd3;
+  font-size: 30px;
+  padding: 18px 12px;
+  color: white;
+  border-radius: 10px;
+}
+
+#Home_Our_courses .home-course-category-area .my-course-category {
+  padding: 15px;
+}
+
+#Home_Our_courses .home-course-category-area .my-course-category .my-course-category-icon {
+  padding: 0px 15px 0px 0px;
+}
+
+#Home_Our_courses .home-course-category-area .my-course-category .my-course-category-content h3 {
+  font-size: 24px;
+  font-weight: 700;
+  margin-bottom: 2px;
+}
+
+#Home_Our_courses .home-course-category-area .my-course-category .my-course-category-content p {
+  font-size: 12px;
+  margin-bottom: 0;
+}
+
+#Home_Our_courses .home-course-category-area .col-md-3 {
+  padding-top: 24px;
+}
+
+#Home_Our_courses .exam-package-area {
+  border: .5px solid rgb(230 225 225);
+  border-radius: 15px;
+}
+
+#Home_Our_courses .all-courses-area {
+  margin-top: 35px;
+}
+
+#Home_Our_courses .see-more-button .btn_warning {
+  background-color: white;
+  color: #eb6a1f;
+  padding: 8px 25px;
+  border: 1px solid #eb6a1f;
+}
+
+#Home_Our_courses .see-more-button .btn_warning:hover {
+  background-color: #eb6a1f;
+  color: white;
+  transition: ease-in-out 0.8s;
+}
+
+/* ----------------- Our Courses Section End ---------------------------- */
+
+/* ----------------- Our Story Section Start ---------------------------- */
+#Our_story .title-area p {
+  font-size: 14px;
+}
+
+#Our_story .title-area span {
+  color: #eb6a1f;
+}
+
+#Our_story .our-story-event-area .event-area-content {
+  text-align: center;
+  background-color: white;
+  box-shadow: 5px 3px 15px -3px;
+  padding: 12px;
+  border-radius: 8px;
+}
+
+#Our_story .our-story-event-area .event-area-content .event-icon {
+  padding: 12px 0;
+}
+
+#Our_story .our-story-event-area .event-area-content .event-icon img {
+  width: 80px;
+  height: 80px;
+}
+
+#Our_story .our-story-event-area .event-area-content .event-content h3 {
+  font-size: 24px;
+  font-weight: 700;
+}
+
+#Our_story .our-story-event-area .event-area-content .event-content p {
+  font-size: 13px;
+  text-align: justify;
+  padding: 0 10px;
+}
+
+#Our_story .our-story-video-content-area .our-story-video-area {
+  display: flex;
+}
+
+#Our_story .our-story-video-content-area .our-story-video-area .our-story-video-1 iframe {
+  /* width: 40%; */
+  height: 220px;
+  border-radius: 12px;
+}
+
+#Our_story .our-story-video-content-area .our-story-video-area .our-story-video-2 iframe {
+  width: 477px;
+  height: 370px;
+  border-radius: 12px;
+}
+
+#Our_story .our-story-video-content-area .our-story-video-area {
+  position: relative;
+  width: 100%;
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+#Our_story .our-story-video-content-area .our-story-video-area .video-wrapper {
+  position: relative;
+  width: 100%;
+  padding-bottom: 56.25%;
+  overflow: hidden;
+}
+
+#Our_story .our-story-video-content-area .our-story-video-area .video-wrapper .our-story-video-1,
+#Our_story .our-story-video-content-area .our-story-video-area .video-wrapper .our-story-video-2 {
+  position: absolute;
+  top: 0;
+  height: 100%;
+}
+
+#Our_story .our-story-video-content-area .our-story-video-area .video-wrapper .our-story-video-1 {
+  left: 0;
+  width: 50%;
+}
+
+#Our_story .our-story-video-content-area .our-story-video-area .video-wrapper .our-story-video-2 {
+  left: 25%;
+  width: 100%;
+  z-index: 2;
+}
+#Our_story .our-story-video-content-area .our-story-video-area .video-wrapper .our-story-video-3 {
+  top: 75%;
+  width: 100%;
+  /* z-index: 2; */
+}
+
+#Our_story .our-story-video-content-area .our-story-video-3 {
+  margin-top: -20%;
+  width: 100%;
+  text-align: center;
+}
+
+#Our_story .our-story-video-content-area .our-story-video-3 iframe {
+  width: 100%;
+  height: 300px;
+  border-radius: 12px;
+}
+#Our_story .our-story-video-content-area .our-story-content-area h3 {
+font-size: 24px;
+font-weight: 700;
+padding-top: 30px;
+}
+#Our_story .our-story-video-content-area .our-story-content-area p {
+font-size: 14px;
+text-align: justify;
+}
+/* ----------------- Our Story Section End ---------------------------- */
+
+/* ----------------- Our Odomiter Section Start ---------------------------- */
+#Home_odomiter .odomiter-content {
+background-color: rgb(20,30,56);
+border-radius: 12px;
+box-shadow: 5px 3px 15px -3px;
+padding: 15px;
+text-align: center;
+}
+#Home_odomiter .odomiter-content h3{
+  font-size: 24px;
+  font-weight: 700;
+  color: #eb6a1f;
+}
+#Home_odomiter .odomiter-content p{
+  font-size: 14px;
+  font-weight: 600;
+  color: white;
+}
+/* ----------------- Our Odomiter Section End ---------------------------- */
+
+/* ----------------- Student Review Section End ---------------------------- */
+#Student_review .title-area h2 {
+  font-size: 2.2rem;
+}
+#Student_review .title-area p {
+  font-size: 14px;
+}
+
+#Student_review .title-area span {
+  color: #eb6a1f;
+}
+#Student_review .student-review-area .student-review-content{
+background-color: white;
+border-radius: 12px;
+padding: 25px;
+box-shadow: 5px 3px 15px -3px;
+}
+#Student_review .student-review-area .student-review-content .student-image img{
+  width: 100px ;
+  height: 100px;
+}
+#Student_review .student-review-area .student-review-content .student-name h4{
+font-size: 18px;
+font-weight: 700;
+color: #eb6a1f;
+}
+#Student_review .student-review-area .student-review-content .review-title h4{
+font-size: 18px;
+font-weight: 700;
+}
+#Student_review .student-review-area .student-review-content .review p{
+font-size: 13px;
+text-align: justify;
+}
+/* ----------------- Student Review Section End ---------------------------- */
+
+
+/* =================================== Home Page End =========================================== */
+
+/* =================================== Our Courses Page Start =========================================== */
+/* ----------------- Our Courses Section Start ---------------------------- */
+#Our_courses {
+  padding: 46px 0;
+}
+
+#Our_courses .title-area p {
+  font-size: 14px;
+}
+
+#Our_courses .title-area h2 {
+  font-size: 2.5rem;
+}
+
+#Our_courses .title-area span {
+  color: #eb6a1f;
+}
+
+#Our_courses .our-course-category-area .my-course-category {
+  display: flex;
+  border: 1px solid rgb(240, 202, 180);
+  background-color: rgb(243, 241, 241);
+  border-radius: 10px;
+}
+
+#Our_courses .our-course-category-area .my-course-category:hover {
+  box-shadow: 5px 3px 15px -3px;
+}
+
+#Our_courses .our-course-category-area .my-course-category .my-course-category-icon i {
+  background-color: #589fd3;
+  font-size: 30px;
+  padding: 18px 12px;
+  color: white;
+  border-radius: 10px;
+}
+
+#Our_courses .our-course-category-area .my-course-category {
+  padding: 15px;
+}
+
+#Our_courses .our-course-category-area .my-course-category .my-course-category-icon {
+  padding: 0px 15px 0px 0px;
+}
+
+#Our_courses .our-course-category-area .my-course-category .my-course-category-content h3 {
+  font-size: 24px;
+  font-weight: 700;
+  margin-bottom: 2px;
+}
+
+#Our_courses .our-course-category-area .my-course-category .my-course-category-content p {
+  font-size: 12px;
+  margin-bottom: 0;
+}
+
+#Our_courses .our-course-category-area .col-md-3 {
+  padding-top: 24px;
+}
+
+#Our_courses .exam-package-area {
+  border: .5px solid rgb(230 225 225);
+  border-radius: 15px;
+}
+
+#Our_courses .all-courses-area {
+  margin-top: 35px;
+}
+
+#Our_courses .see-more-button .btn_warning {
+  background-color: white;
+  color: #eb6a1f;
+  padding: 8px 25px;
+  border: 1px solid #eb6a1f;
+}
+
+#Our_courses .see-more-button .btn_warning:hover {
+  background-color: #eb6a1f;
+  color: white;
+  transition: ease-in-out 0.8s;
+}
+
+/* ----------------- Our Courses Section End ---------------------------- */
+/* =================================== Our Courses Page End =========================================== */
