@@ -1,0 +1,40 @@
+#All_notice .notice-category-area .my-notice-category {
+    display: flex;
+    border: 1px solid white;
+    background-color: rgb(236, 234, 234);
+    border-radius: 10px;
+  }
+  
+ #All_notice .notice-category-area .my-notice-category:hover {
+    border: 1px solid rgb(240, 202, 180);
+    box-shadow: 5px 3px 15px -3px;
+  }
+  
+ #All_notice .notice-category-area .my-notice-category .my-notice-category-icon img {
+    border-radius: 10px;
+    width: 70px;
+    height: 70px;
+  }
+  
+ #All_notice .notice-category-area .my-notice-category {
+    padding: 15px;
+  }
+  
+ #All_notice .notice-category-area .my-notice-category .my-notice-category-icon {
+    padding: 0px 15px 0px 0px;
+  }
+  
+ #All_notice .notice-category-area .my-notice-category .my-notice-category-content {
+    margin: auto;
+  }
+  
+ #All_notice .notice-category-area .my-notice-category .my-notice-category-content h3 {
+    font-size: 24px;
+    font-weight: 700;
+    margin-bottom: 2px;
+  }
+  
+ #All_notice .notice-category-area .my-notice-category .my-notice-category-content p {
+    font-size: 13px;
+    margin-bottom: 0;
+  }
