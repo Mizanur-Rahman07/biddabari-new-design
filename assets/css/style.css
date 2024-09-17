@@ -1842,4 +1842,105 @@ margin-right: -12px;
   background-repeat: no-repeat;
 }
 
+#Why_biddabari .title-area p {
+  font-size: 14px;
+}
+
+#Why_biddabari .title-area h2 {
+  font-size: 2.5rem;
+}
+
+#Why_biddabari .title-area span {
+  color: #eb6a1f;
+}
+.background-res-why {
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+#Why_biddabari .why-biddabari-img-area img{
+  width: 100%;
+  height: 400px;
+}
+#Our_goals .title-area p {
+  font-size: 14px;
+}
+
+#Our_goals .title-area h2 {
+  font-size: 2.5rem;
+}
+
+#Our_goals .title-area span {
+  color: #eb6a1f;
+}
+
+#Our_goals .our-goals-card-area .our-goals-card-content{
+  background-color: white;
+  border: white;
+  border-radius: 12px;
+  box-shadow: 5px 3px 15px -3px;;
+  padding: 20px;
+  margin-top:23px ;
+}
+#Our_goals .our-goals-card-area .our-goals-card-content .our-goals-card-icon i{
+background-color: #fce1e1;
+color: #eb6a1f;
+padding: 15px;
+border-radius: 12px;
+border: 0.5px solid #f0b897;
+font-size: 24px;
+}
+#Our_goals .our-goals-card-area .our-goals-card-content .our-goals-card-text h3{
+font-size: 26px;
+font-weight: 700;
+padding-top: 15px;
+}
+#Our_goals .our-goals-card-area .our-goals-card-content .our-goals-card-text p{
+font-size: 16px;
+}
+/* -------------Our Team Sectio Start--------------- */
+#Our_team .title-area p {
+  font-size: 14px;
+}
+
+#Our_team .title-area h2 {
+  font-size: 2.5rem;
+}
+
+#Our_team .title-area span {
+  color: #eb6a1f;
+}
+#Our_team .our-team-card-area .our-team-card {
+ background-color: white;
+ border-radius: 12px;
+ padding: 15px;
+ box-shadow: 5px 3px 15px -3px;;
+}
+#Our_team .our-team-card-area .our-team-card .our-team-image img {
+  width: 100%;
+  height: 200px;
+  border-radius: 12px;
+  margin-bottom: 18px;
+}
+#Our_team .our-team-card-area .our-team-card .our-team-content h3 {
+font-size: 24px;
+font-weight: 700;
+margin-bottom: 1px;
+}
+#Our_team .our-team-card-area .our-team-card .our-team-content h6 {
+font-size: 15px;
+font-weight: 600;
+}
+#Our_team .our-team-card-area .our-team-card .our-team-content p {
+font-size: 14px;
+text-align: justify;
+}
+#Our_team .our-team-card-area .our-team-card .our-team-social-link {
+display: flex;
+}
+#Our_team .our-team-card-area .our-team-card .our-team-social-link i{
+padding-right: 12px;
+font-size: 16px;
+color: #f0b897;
+}
+/* -------------Our Team Sectio End--------------- */
 /* =================================== About Us Page End =========================================== */
