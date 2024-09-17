@@ -1774,6 +1774,7 @@ p {}
   border: 1px solid rgb(238, 227, 227);
   padding: 10px;
 }
+
 #All_notice .notice-content-area .notice-content:hover {
   box-shadow: 5px 3px 15px -3px;
 }
@@ -1784,41 +1785,48 @@ p {}
 #About_us_banner .title-area {
   padding: 60px 0px;
 }
-#About_us_banner .title-area .title-area-button a{
+
+#About_us_banner .title-area .title-area-button a {
   background-color: #eb6a1f;
   padding: 10px 30px;
   color: white;
 }
 
-#We_are .we-are-image-area .we-are-img1 img{
+#We_are .we-are-image-area .we-are-img1 img {
   width: 100%;
   height: 300px;
   border-radius: 12px;
 }
-#We_are .we-are-image-area .we-are-img2 img{
+
+#We_are .we-are-image-area .we-are-img2 img {
   width: 100%;
   height: 150px;
-  padding-bottom:5px ;
+  padding-bottom: 5px;
   border-radius: 12px;
 }
-#We_are .we-are-image-area .we-are-img3 img{
+
+#We_are .we-are-image-area .we-are-img3 img {
   width: 100%;
   height: 150px;
   padding-top: 5px;
   border-radius: 12px;
 }
-#We_are .we-are-image-area .we-are-img4 img{
+
+#We_are .we-are-image-area .we-are-img4 img {
   width: 100%;
-  height: 140px ;
+  height: 140px;
   margin-top: 10px;
   border-radius: 12px;
 }
-#We_are .we-are-image-area .ms_0{
-padding-right: 0px;
+
+#We_are .we-are-image-area .ms_0 {
+  padding-right: 0px;
 }
-#We_are .we-are-image-area .me_0{
-margin-right: -12px;
+
+#We_are .we-are-image-area .me_0 {
+  margin-right: -12px;
 }
+
 #We_are .we-are-title p {
   font-size: 14px;
   text-align: justify;
@@ -1831,12 +1839,14 @@ margin-right: -12px;
 #We_are .we-are-title span {
   color: #eb6a1f;
 }
+
 #We_are .we-are-button .btn_warning {
   background-color: #eb6a1f;
   padding: 7px 50px;
   color: white;
   font-weight: 600;
 }
+
 .background-res-about {
   background-size: cover;
   background-repeat: no-repeat;
@@ -1853,14 +1863,17 @@ margin-right: -12px;
 #Why_biddabari .title-area span {
   color: #eb6a1f;
 }
+
 .background-res-why {
   background-size: cover;
   background-repeat: no-repeat;
 }
-#Why_biddabari .why-biddabari-img-area img{
+
+#Why_biddabari .why-biddabari-img-area img {
   width: 100%;
   height: 400px;
 }
+
 #Our_goals .title-area p {
   font-size: 14px;
 }
@@ -1873,30 +1886,35 @@ margin-right: -12px;
   color: #eb6a1f;
 }
 
-#Our_goals .our-goals-card-area .our-goals-card-content{
+#Our_goals .our-goals-card-area .our-goals-card-content {
   background-color: white;
   border: white;
   border-radius: 12px;
-  box-shadow: 5px 3px 15px -3px;;
+  box-shadow: 5px 3px 15px -3px;
+  ;
   padding: 20px;
-  margin-top:23px ;
+  margin-top: 23px;
 }
-#Our_goals .our-goals-card-area .our-goals-card-content .our-goals-card-icon i{
-background-color: #fce1e1;
-color: #eb6a1f;
-padding: 15px;
-border-radius: 12px;
-border: 0.5px solid #f0b897;
-font-size: 24px;
+
+#Our_goals .our-goals-card-area .our-goals-card-content .our-goals-card-icon i {
+  background-color: #fce1e1;
+  color: #eb6a1f;
+  padding: 15px;
+  border-radius: 12px;
+  border: 0.5px solid #f0b897;
+  font-size: 24px;
 }
-#Our_goals .our-goals-card-area .our-goals-card-content .our-goals-card-text h3{
-font-size: 26px;
-font-weight: 700;
-padding-top: 15px;
+
+#Our_goals .our-goals-card-area .our-goals-card-content .our-goals-card-text h3 {
+  font-size: 26px;
+  font-weight: 700;
+  padding-top: 15px;
 }
-#Our_goals .our-goals-card-area .our-goals-card-content .our-goals-card-text p{
-font-size: 16px;
+
+#Our_goals .our-goals-card-area .our-goals-card-content .our-goals-card-text p {
+  font-size: 16px;
 }
+
 /* -------------Our Team Sectio Start--------------- */
 #Our_team .title-area p {
   font-size: 14px;
@@ -1909,38 +1927,121 @@ font-size: 16px;
 #Our_team .title-area span {
   color: #eb6a1f;
 }
+
 #Our_team .our-team-card-area .our-team-card {
- background-color: white;
- border-radius: 12px;
- padding: 15px;
- box-shadow: 5px 3px 15px -3px;;
+  background-color: white;
+  border-radius: 12px;
+  padding: 15px;
+  box-shadow: 5px 3px 15px -3px;
 }
+
 #Our_team .our-team-card-area .our-team-card .our-team-image img {
   width: 100%;
   height: 200px;
   border-radius: 12px;
   margin-bottom: 18px;
 }
+
 #Our_team .our-team-card-area .our-team-card .our-team-content h3 {
-font-size: 24px;
-font-weight: 700;
-margin-bottom: 1px;
+  font-size: 24px;
+  font-weight: 700;
+  margin-bottom: 1px;
 }
+
 #Our_team .our-team-card-area .our-team-card .our-team-content h6 {
-font-size: 15px;
-font-weight: 600;
+  font-size: 15px;
+  font-weight: 600;
 }
+
 #Our_team .our-team-card-area .our-team-card .our-team-content p {
-font-size: 14px;
-text-align: justify;
+  font-size: 14px;
+  text-align: justify;
 }
+
 #Our_team .our-team-card-area .our-team-card .our-team-social-link {
-display: flex;
+  display: flex;
 }
-#Our_team .our-team-card-area .our-team-card .our-team-social-link i{
-padding-right: 12px;
-font-size: 16px;
-color: #f0b897;
+
+#Our_team .our-team-card-area .our-team-card .our-team-social-link i {
+  padding-right: 12px;
+  font-size: 16px;
+  color: #f0b897;
 }
+
 /* -------------Our Team Sectio End--------------- */
 /* =================================== About Us Page End =========================================== */
+
+/* =================================== Instructor Page Start =========================================== */
+#Isntructor .title-area p {
+  font-size: 14px;
+}
+
+#Isntructor .title-area h2 {
+  font-size: 2.5rem;
+}
+
+#Isntructor .title-area span {
+  color: #eb6a1f;
+}
+
+#Isntructor .teachers-category .nav-pills .nav-link.active,
+.nav-pills .show>.nav-link {
+  color: white;
+  background-color: #eb6a1f;
+}
+
+#Isntructor .teachers-category .nav-pills .nav-link,
+.nav-pills .show>.nav-link {
+  color: black;
+  background-color: white;
+  box-shadow: 5px 2px 10px -6px;
+  margin-left: 15px;
+}
+
+#Isntructor .teachers-category .nav {
+  justify-content: center;
+  margin-top: 25px;
+}
+
+#Isntructor .instructor-card-area .instructor-card .instructor-content .instructor-review i {
+  color: #eb6a1f;
+  font-size: 14px;
+  padding: 7px 0;
+}
+
+#Isntructor .instructor-card-area .instructor-card .instructor-content p {
+  font-size: 14px;
+  text-align: justify;
+}
+
+#Isntructor .instructor-card-area .instructor-card .instructor-content h3 {
+  font-size: 20px;
+  font-weight: 700;
+}
+
+#Isntructor .instructor-card-area .instructor-card .instructor-view-button .btn_warning {
+  border: 1px solid #eb6a1f;
+  border-radius: 12px;
+  padding: 5px 30px;
+}
+
+#Isntructor .instructor-card-area .instructor-card .instructor-view-button .btn_warning:hover {
+  color: white;
+  background-color: #eb6a1f;
+}
+
+#Isntructor .instructor-card-area .instructor-card .instructor-card-img img {
+  width: 100%;
+  height: 220px;
+  border-radius: 12px;
+  margin-bottom: 15px;
+}
+
+#Isntructor .instructor-card-area .instructor-card {
+  background-color: white;
+  border-radius: 12px;
+  box-shadow: -2px 10px 20px -6px;
+  padding: 15px;
+}
+
+/* =================================== Instructor Page End =========================================== */
