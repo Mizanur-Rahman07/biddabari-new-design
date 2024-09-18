@@ -1972,25 +1972,25 @@ p {}
 /* =================================== About Us Page End =========================================== */
 
 /* =================================== Instructor Page Start =========================================== */
-#Isntructor .title-area p {
+#Instructor .title-area p {
   font-size: 14px;
 }
 
-#Isntructor .title-area h2 {
+#Instructor .title-area h2 {
   font-size: 2.5rem;
 }
 
-#Isntructor .title-area span {
+#Instructor .title-area span {
   color: #eb6a1f;
 }
 
-#Isntructor .teachers-category .nav-pills .nav-link.active,
+#Instructor .teachers-category .nav-pills .nav-link.active,
 .nav-pills .show>.nav-link {
   color: white;
   background-color: #eb6a1f;
 }
 
-#Isntructor .teachers-category .nav-pills .nav-link,
+#Instructor .teachers-category .nav-pills .nav-link,
 .nav-pills .show>.nav-link {
   color: black;
   background-color: white;
@@ -1998,46 +1998,46 @@ p {}
   margin-left: 15px;
 }
 
-#Isntructor .teachers-category .nav {
+#Instructor .teachers-category .nav {
   justify-content: center;
   margin-top: 25px;
 }
 
-#Isntructor .instructor-card-area .instructor-card .instructor-content .instructor-review i {
+#Instructor .instructor-card-area .instructor-card .instructor-content .instructor-review i {
   color: #eb6a1f;
   font-size: 14px;
   padding: 7px 0;
 }
 
-#Isntructor .instructor-card-area .instructor-card .instructor-content p {
+#Instructor .instructor-card-area .instructor-card .instructor-content p {
   font-size: 14px;
   text-align: justify;
 }
 
-#Isntructor .instructor-card-area .instructor-card .instructor-content h3 {
+#Instructor .instructor-card-area .instructor-card .instructor-content h3 {
   font-size: 20px;
   font-weight: 700;
 }
 
-#Isntructor .instructor-card-area .instructor-card .instructor-view-button .btn_warning {
+#Instructor .instructor-card-area .instructor-card .instructor-view-button .btn_warning {
   border: 1px solid #eb6a1f;
   border-radius: 12px;
   padding: 5px 30px;
 }
 
-#Isntructor .instructor-card-area .instructor-card .instructor-view-button .btn_warning:hover {
+#Instructor .instructor-card-area .instructor-card .instructor-view-button .btn_warning:hover {
   color: white;
   background-color: #eb6a1f;
 }
 
-#Isntructor .instructor-card-area .instructor-card .instructor-card-img img {
+#Instructor .instructor-card-area .instructor-card .instructor-card-img img {
   width: 100%;
   height: 220px;
   border-radius: 12px;
   margin-bottom: 15px;
 }
 
-#Isntructor .instructor-card-area .instructor-card {
+#Instructor .instructor-card-area .instructor-card {
   background-color: white;
   border-radius: 12px;
   box-shadow: -2px 10px 20px -6px;
@@ -2045,3 +2045,246 @@ p {}
 }
 
 /* =================================== Instructor Page End =========================================== */
+
+/* =================================== Instructor Details Page Start =========================================== */
+#Instructor_details .teacher-image img {
+  width: 100%;
+  height: 350px;
+  border-radius: 12px;
+  margin-bottom: 15px;
+}
+
+#Instructor_details .teacher-details .teacher-contact-button .btn_warning {
+  border: 1px solid #eb6a1f;
+  border-radius: 12px;
+  padding: 8px 30px;
+  background-color: #eb6a1f;
+  color: white;
+}
+
+#Instructor_details .teacher-details .teacher-contact-button .btn_warning:hover {
+  border: 1px solid #eb6a1f;
+  background-color: white;
+  color: black;
+}
+
+#Instructor_details .teacher-details {
+  padding-top: 220px;
+}
+
+#Instructor_details .teacher-details h3 {
+  font-size: 26px;
+  font-weight: 700;
+}
+
+#Instructor_details .teachers-category .nav-pills .nav-link.active,
+.nav-pills .show>.nav-link {
+  color: white;
+  background-color: #eb6a1f;
+}
+
+#Instructor_details .teachers-category .nav-pills .nav-link,
+.nav-pills .show>.nav-link {
+  color: black;
+  background-color: white;
+  box-shadow: 5px 2px 10px -6px;
+  margin-right: 15px;
+  padding: 8px 20px;
+}
+
+#Instructor_details .teachers-category {
+  margin-top: 25px;
+}
+
+#Instructor_details .tab-content .instructor-about-area .teacher-about-content h3 {
+  font-size: 26px;
+  font-weight: 700;
+  line-height: 28px;
+}
+
+#Instructor_details .tab-content .instructor-about-area .teacher-about-content p {
+  font-size: 15px;
+  line-height: 24px;
+  text-align: justify;
+}
+
+#Instructor_details .tab-content .instructor-about-area .teacher-quality h3 {
+  font-size: 26px;
+  font-weight: 700;
+  line-height: 28px;
+}
+
+#Instructor_details .tab-content .instructor-about-area .teacher-quality p {
+  font-size: 15px;
+  line-height: 24px;
+  text-align: justify;
+}
+
+
+#Instructor_details .instructor-class-area .teacher-free-class .instructor-card .instructor-content .instructor-review i {
+  color: #eb6a1f;
+  font-size: 14px;
+  padding: 7px 0;
+}
+
+#Instructor_details .instructor-class-area .teacher-free-class .instructor-card .instructor-content p {
+  font-size: 14px;
+  text-align: justify;
+}
+
+#Instructor_details .instructor-class-area .teacher-free-class .instructor-card .instructor-content h3 {
+  font-size: 20px;
+  font-weight: 700;
+}
+
+#Instructor_details .instructor-class-area .teacher-free-class .instructor-card .instructor-card-video iframe {
+  width: 100%;
+  height: 220px;
+  border-radius: 12px;
+  margin-bottom: 15px;
+}
+
+#Instructor_details .instructor-class-area .teacher-free-class .instructor-card {
+  background-color: white;
+  border-radius: 12px;
+  box-shadow: -2px 10px 20px -6px;
+  padding: 15px;
+}
+
+#Instructor_details .instructor-class-area .teacher-free-class h2 {
+  font-size: 30px;
+  font-weight: 700;
+  line-height: 28px;
+  padding: 20px 0;
+}
+
+#Instructor_details .instructor-class-area .instructor-courses-area h2 {
+  font-size: 30px;
+  font-weight: 700;
+  line-height: 28px;
+  padding: 20px 0;
+}
+
+#Instructor_details .instructor-class-area .instructor-courses-area .teacher-course-area {
+  display: flex;
+  background-color: white;
+  border-radius: 12px;
+  box-shadow: -2px 10px 20px -6px;
+  padding: 15px;
+
+}
+
+#Instructor_details .instructor-class-area .instructor-courses-area .teacher-course-area .teacher-course-img img {
+  width: 120px;
+  height: 120px;
+  margin-right: 10px;
+  border-radius: 12px;
+}
+
+#Instructor_details .instructor-class-area .instructor-courses-area .teacher-course-area .teacher-course-content h4 {
+  font-size: 18px;
+  font-weight: 700;
+}
+
+#Instructor_details .instructor-class-area .instructor-courses-area .teacher-course-area .teacher-course-content p {
+  font-size: 14px;
+  margin-bottom: 1px;
+}
+
+#Instructor_details .instructor-class-area .instructor-courses-area .teacher-course-area .teacher-course-content span {
+  font-size: 18px;
+  color: #eb6a1f;
+  font-weight: 700;
+}
+
+#Instructor_details .instructor-class-area .instructor-courses-area .teacher-course-area .teacher-course-content s {
+  font-size: 14px;
+}
+
+/* =================================== Instructor Details Page End =========================================== */
+
+/* =================================== Contact Us Page Start =========================================== */
+#Get_in_touch .get-in-touch-area .our-contact-content ul li a {
+  font-size: 17px;
+  /* line-height: 40px; */
+  color: black;
+  font-weight: 700;
+}
+
+#Get_in_touch .get-in-touch-area .our-contact-content ul li a:hover {
+  color: #eb6a1f;
+}
+
+#Get_in_touch .get-in-touch-area .our-contact-content ul {
+  padding-left: 0;
+  list-style-type: none;
+}
+
+#Get_in_touch .get-in-touch-area .our-contact-content ul li {
+  padding-bottom: 15px;
+}
+
+#Get_in_touch .get-in-touch-area .our-contact-content ul li i {
+  color: #eb6a1f;
+  font-size: 20px;
+  margin-right: 8px;
+  background-color: #faeae1;
+  padding: 10px;
+  border-radius: 20px;
+}
+
+#Get_in_touch .get-in-touch-area .title-text h2 {
+  font-size: 30px;
+  font-weight: 700;
+}
+
+#Get_in_touch .get-in-touch-area .title-text p {
+  font-size: 15px;
+}
+#Get_in_touch .get-in-touch-form {
+  background-color: white;
+  padding: 40px;
+  box-shadow: -2px 10px 20px -6px;
+  border-radius: 8px;
+}
+#Get_in_touch .get-in-touch-form .btn_warning {
+  border: 1px solid #eb6a1f;
+  border-radius: 8px;
+  padding: 8px 30px;
+}
+
+#Get_in_touch .get-in-touch-form .btn_warning:hover {
+  border: 1px solid #eb6a1f;
+  background-color: #eb6a1f;
+  color: white;
+}
+
+#Find_us .find-us-area h3{
+  font-size: 26px;
+  font-weight: 700;
+}
+#Find_us .find-us-area p{
+  font-size: 15px;
+  text-align: justify;
+}
+#Find_us .find-us-button .btn_warning {
+  border: 1px solid #eb6a1f;
+  border-radius: 8px;
+  padding: 8px 30px;
+}
+
+#Find_us .find-us-button .btn_warning:hover {
+  border: 1px solid #eb6a1f;
+  background-color: #eb6a1f;
+  color: white;
+}
+#Find_us .find-us-map iframe{
+width: 100%;
+height: 280px;
+border-radius: 12px;
+}
+.background-res-find {
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+/* =================================== Contact Us Page End =========================================== */
