@@ -2241,12 +2241,14 @@ p {}
 #Get_in_touch .get-in-touch-area .title-text p {
   font-size: 15px;
 }
+
 #Get_in_touch .get-in-touch-form {
   background-color: white;
   padding: 40px;
   box-shadow: -2px 10px 20px -6px;
   border-radius: 8px;
 }
+
 #Get_in_touch .get-in-touch-form .btn_warning {
   border: 1px solid #eb6a1f;
   border-radius: 8px;
@@ -2259,14 +2261,16 @@ p {}
   color: white;
 }
 
-#Find_us .find-us-area h3{
+#Find_us .find-us-area h3 {
   font-size: 26px;
   font-weight: 700;
 }
-#Find_us .find-us-area p{
+
+#Find_us .find-us-area p {
   font-size: 15px;
   text-align: justify;
 }
+
 #Find_us .find-us-button .btn_warning {
   border: 1px solid #eb6a1f;
   border-radius: 8px;
@@ -2278,13 +2282,107 @@ p {}
   background-color: #eb6a1f;
   color: white;
 }
-#Find_us .find-us-map iframe{
-width: 100%;
-height: 280px;
-border-radius: 12px;
+
+#Find_us .find-us-map iframe {
+  width: 100%;
+  height: 280px;
+  border-radius: 12px;
 }
+
 .background-res-find {
   background-size: cover;
   background-repeat: no-repeat;
 }
+
 /* =================================== Contact Us Page End =========================================== */
+
+/* =================================== Sign Up Page Start =========================================== */
+#Signup .signup-area {
+  background-color: white;
+  box-shadow: -2px 10px 20px -6px;
+  padding: 70px;
+  border-radius: 8px;
+}
+
+#Signup .signup-area .signup-image-area img {
+  width: 100%;
+  height: 300px;
+}
+
+#Signup .signup-area .signup-image-area h2 {
+  font-size: 32px;
+  font-weight: 700;
+  padding: 15px 0;
+}
+
+#Signup .signup-area .signup-image-area {
+  border-right: 1px solid rgb(212, 211, 211);
+  padding: 0 10px;
+}
+
+#Signup .signup-area .signup-form-area .google-icon img {
+  width: 35px;
+  height: 35px;
+}
+
+#Signup .signup-area .signup-form-area .google-icon {
+  border: 1px solid rgb(236, 234, 234);
+  border-radius: 8px;
+}
+
+#Signup .signup-area .signup-form-area h6 {
+  font-size: 15px;
+  text-align: center;
+  padding: 15px 0;
+}
+
+#Signup .signup-area .signup-form-area h6 span {
+  color: #eb6a1f;
+  font-weight: 700;
+}
+
+#Signup .signup-area .signup-form-area .form-check span a {
+  color: black;
+  font-size: 15px;
+}
+
+#Signup .signup-area .signup-form-area .signup-form .position_relative {
+  position: relative;
+}
+
+#Signup .signup-area .signup-form-area .signup-form .input-icon {
+  position: absolute;
+  top: 50%;
+  left: 10px;
+  transform: translateY(-50%);
+  pointer-events: none;
+  color: #aaa;
+}
+
+#Signup .signup-area .signup-form-area .signup-form .icon-input {
+  padding-left: 2.5rem;
+}
+
+#Signup .signup-area .signup-form-area .signup-form .form-label {
+  font-size: 15px;
+  font-weight: 700;
+}
+
+#Signup .signup-area .signup-form-area .signup-form .btn_warning {
+  border: 1px solid #eb6a1f;
+  border-radius: 8px;
+  padding: 8px 30px;
+  width: 100%;
+}
+
+#Signup .signup-area .signup-form-area .signup-form .btn_warning:hover {
+  border: 1px solid #eb6a1f;
+  background-color: #eb6a1f;
+  color: white;
+}
+
+#Signup .signup-area .signup-form-area .signup-form .form-check span {
+  text-align: right;
+}
+
+/* =================================== Sign Up Page End =========================================== */
