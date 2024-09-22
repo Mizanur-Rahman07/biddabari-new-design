@@ -2296,7 +2296,7 @@ p {}
 
 /* =================================== Contact Us Page End =========================================== */
 
-/* =================================== Sign Up Page Start =========================================== */
+/* =================================== Sign Up & Sign In Page Start =========================================== */
 #Signup .signup-area {
   background-color: white;
   box-shadow: -2px 10px 20px -6px;
@@ -2385,4 +2385,115 @@ p {}
   text-align: right;
 }
 
-/* =================================== Sign Up Page End =========================================== */
+/* =================================== Sign Up & Sign in Page End =========================================== */
+
+/* =================================== Terms & Conditionn Page Start =========================================== */
+.background-res-terms {
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+#TermsConditon .title-area h2 {
+  font-size: 2.5rem;
+}
+
+#TermsConditon .terms-and-condition-area {
+  margin-top: 100px;
+}
+
+#TermsConditon .terms-welcome-area h6 {
+  font-size: 13px;
+}
+
+#TermsConditon .terms-welcome-area h2 {
+  font-size: 26px;
+  font-weight: 700;
+}
+
+#TermsConditon .terms-welcome-area h2 span {
+  color: #eb6a1f;
+}
+
+#TermsConditon .terms-welcome-area p {
+  font-size: 15px;
+  text-align: justify;
+  border: 1px solid rgb(223, 221, 221);
+  border-radius: 12px;
+  padding: 25px;
+  margin-top: 25px;
+}
+
+#TermsConditon .terms-represent-area .represent-area {
+  text-align: justify;
+  border: 1px solid rgb(223, 221, 221);
+  border-radius: 12px;
+  padding: 25px;
+  margin-top: 25px;
+}
+
+#TermsConditon .terms-represent-area .represent-area h6 {
+  font-size: 15px;
+  font-weight: 700;
+  padding-bottom: 20px;
+}
+
+#TermsConditon .terms-represent-area .represent-area p span {
+  color: #eb6a1f;
+}
+
+/* =================================== Terms & Conditionn Page End =========================================== */
+
+/* =================================== Our Social Media Page Start =========================================== */
+#Our_social_media .title-area h2 {
+  font-size: 2.5rem;
+}
+
+#Our_social_media .title-area {
+  margin: 0 20px;
+}
+
+#Our_social_media .title-area h2 span {
+  color: #eb6a1f;
+}
+
+#Social_media .media-area .media-icon-img img {
+  width: 60px;
+  height: 60px;
+}
+
+#Social_media .media-area .media-icon-img {
+  display: flex;
+}
+
+#Social_media .media-area .media-icon-img p {
+  font-size: 15px;
+  font-weight: 600;
+  margin-top: 20px;
+}
+
+#Social_media .media-area {
+  display: flex;
+  background-color: white;
+  border: 1px solid white;
+  border-radius: 12px;
+  box-shadow: -2px 10px 47px -26px;
+  padding: 10px;
+}
+
+#Social_media .media-area .media-view-button .btn_warning {
+  border: 1px solid #eb6a1f;
+  border-radius: 8px;
+  padding: 5px 20px;
+  width: 100%;
+  color: #eb6a1f;
+  font-size: 700;
+  margin-top: 12px;
+}
+
+#Social_media .media-area .media-view-button .btn_warning:hover {
+  border: 1px solid #eb6a1f;
+  background-color: #eb6a1f;
+  color: white;
+}
+
+/* =================================== Our Social Media Page End =========================================== */
