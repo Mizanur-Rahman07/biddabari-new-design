@@ -2680,3 +2680,141 @@ p {}
 }
 
 /* =================================== Guideline Page End =========================================== */
+
+/* =================================== Book Page Start =========================================== */
+#Book_page_banner .book-banner .book-banner-image img {
+  width: 100%;
+  height: 335px;
+  border-radius: 12px;
+}
+
+.background-res-book-banner {
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+#All_book .title-area h2 {
+  font-size: 2.5rem;
+}
+
+#All_book .title-area {
+  margin: 0 20px;
+}
+
+#All_book .title-area h2 span {
+  color: #eb6a1f;
+}
+
+
+#All_book .book-area .book-image img {
+  width: 100%;
+  height: 207px;
+  border-radius: 15px 15px 0px 0px;
+}
+
+#All_book .book-area .book-content .book-title h2 {
+  margin-bottom: 0px;
+  font-size: 22px;
+}
+
+#All_book .book-area {
+  border: .5px solid rgb(230 225 225);
+  border-radius: 15px;
+}
+
+#All_book .book-area .book-content .book-rating i {
+  color: #eb6a1f;
+  font-size: 14px;
+  padding: 7px 0;
+}
+
+#All_book .book-area .book-content .button-and-price .book-discount-price {
+  font-size: 24px;
+  font-weight: 700;
+}
+
+#All_book .book-area .book-content .button-and-price .book-button .book-details {
+  color: #eb6a1f;
+  border: 0;
+  margin-bottom: 15px;
+  /* border-bottom: 1px solid gray; */
+}
+
+#All_book .book-area .book-content .button-and-price .book-button button {
+  background-color: white;
+}
+
+#All_book .book-area .book-content .book-title h6 {
+  font-size: 13px;
+  background-color: green;
+  padding: 5px 10px;
+  color: white;
+  width: 72px;
+  border-radius: 4px;
+}
+
+#All_book .all-book-title h3 {
+  font-size: 24px;
+  font-weight: 700;
+  padding: 15px 0;
+}
+
+#All_book .all-book-title h3 span {
+  color: #eb6a1f;
+}
+
+/* =================================== Book Page End =========================================== */
+
+/* =================================== Book Details Page Start =========================================== */
+#Book_details .book-details-area .book-image-area .book-image img {
+  width: 100%;
+  height: 500px;
+  border-radius: 12px;
+}
+
+#Book_details .book-details-area .book-details-description-area .book-available h6 {
+  font-size: 15px;
+  background-color: green;
+  padding: 8px 15px;
+  color: white;
+  width: 90px;
+  border-radius: 4px;
+}
+
+#Book_details .book-details-area .book-details-description-area .book-title h2 {
+  font-size: 24px
+}
+
+#Book_details .book-details-area .book-details-description-area .customer-book-rating i {
+  color: #eb6a1f;
+  font-size: 14px;
+  padding: 7px 0;
+}
+
+#Book_details .book-details-area .book-details-description-area .book-by p {
+  font-size: 15px;
+  margin-bottom: 10px;
+}
+
+#Book_details .book-details-area .book-details-description-area .book-by p span {
+  color: #eb6a1f;
+}
+
+#Book_details .book-details-area .book-details-description-area .book-price .book-total-price h2 {
+  font-size: 28px;
+  font-weight: 700;
+  color: #eb6a1f;
+}
+
+#Book_details .book-details-area .book-details-description-area .book-price .book-total-price h2 s {
+  font-size: 16px;
+  font-weight: 700;
+}
+
+#Book_details .book-details-area .book-details-description-area .book-price .book-total-price h2 span {
+  font-size: 16px;
+  font-weight: 700;
+  color: red;
+}
+
+/* =================================== Book Details Page End =========================================== */
