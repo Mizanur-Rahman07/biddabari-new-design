@@ -96,8 +96,11 @@
                     <div class="row">
                         <div class="col-md-4">
                             <div class="book-image-area">
-                                <div class="book-image">
+                                <div class="book-image d-flex">
                                     <img src="assets/images/book-page/details-book.png" alt="package-image" srcset="" />
+                                    <div class="see-more-btn">
+                                        <a href="" type="button" class="btn btn_warning">একটু পরে দেখুন</a>
+                                    </div>
                                 </div>
                             </div>
                         </div>
@@ -135,12 +138,17 @@
                                     <p>পৃষ্ঠা : 870 (Opset white pages)</p>
                                 </div>
                                 <div class="book-description">
-                                    <h3>Description</h3>
+                                    <h4>Description</h4>
                                     <p>NTRCA বা শিক্ষক নিবন্ধন (কলেজ, স্কুল, স্কুল পর্যায়-২) প্রিলি. পরীক্ষায় পাশ করতে
-                                        বিগত বিসিএস এবং গত ৫-১০ বছরের নন-ক্যাডার পরীক্ষাযর বাছাইকৃত প্রশ্নগুলো পড়ে মনে
-                                        রাখতে পারলেই পাশ হয়ে যায়। তবে, বিসিএস সহ
-                                        Read More
+                                        <span id="recentArticelMore" style="display: none;"> বিগত বিসিএস এবং গত ৫-১০
+                                            বছরের নন-ক্যাডার পরীক্ষাযর বাছাইকৃত প্রশ্নগুলো পড়ে
+                                            মনে রাখতে পারলেই পাশ হয়ে যায়। তবে, বিসিএস সহ </span> <a
+                                            onclick="myFunction('recentArticelMore','myBtn')" id="myBtn">
+                                            <d style="color: red;">Read More...</d>
                                     </p>
+                                </div>
+                                <div class="purchase-button">
+                                    <a href="" type="button" class="btn btn_warning">এখনই কিনুন</a>
                                 </div>
                             </div>
                         </div>
@@ -148,6 +156,38 @@
                 </div>
             </div>
         </section>
+
+
+        <script>
+            function myFunction(id, myBtn) {
+
+                const btnText = document.getElementById(myBtn);
+
+                var x = document.getElementById(id);
+                if (x.style.display === "block") {
+                    x.style.display = "none";
+                    btnText.innerHTML = "Read More...";
+                    btnText.style.color = "red";
+                } else {
+                    0
+                    x.style.display = "block";
+                    btnText.innerHTML = "Read less";
+                    btnText.style.color = "blue";
+                }
+
+                // if (recentArticelDots.style.display === "none") {
+                //   recentArticelDots.style.display = "inline";
+                //   btnText.innerHTML = "Read More"; 
+                //   moreText.style.display = "none";
+                // } else {
+                //   recentArticelDots.style.display = "none";
+                //   btnText.innerHTML = "Read less"; 
+                //   moreText.style.display = "inline";
+                // }
+            }
+            // ----------- Recent Articel for Read More Code------------//     
+        </script>
+
 
         <section id="All_book">
             <div class="container">
