@@ -2754,7 +2754,7 @@ p {}
 }
 
 #All_book .all-book-title h3 {
-  font-size: 24px;
+  font-size: 28px;
   font-weight: 700;
   padding: 15px 0;
 }
@@ -2835,6 +2835,7 @@ p {}
   position: relative;
   left: -50%;
 }
+
 #Book_details .book-details-area .book-image-area .book-image .btn_warning:hover {
   background-color: none;
   color: #eb6a1f;
@@ -2865,4 +2866,653 @@ p {}
   color: red;
 }
 
+#Book_details .related-book-details {
+  border-radius: 12px;
+  border: 1px solid rgb(201, 196, 196);
+  padding: 10px;
+}
+
+#Book_details .related-book-details .related-book-img img {
+  width: 100%;
+  height: 100px;
+  border-radius: 12px;
+  border: 1px solid rgb(201, 196, 196);
+  padding: 8px;
+}
+
+#Book_details .related-book-details .related-book-content .related-book-title h4 {
+  font-size: 19px;
+  font-weight: 700;
+  margin-bottom: 0px;
+
+}
+
+#Book_details .related-book-details .related-book-content .related-book-title p {
+  font-size: 15px;
+  font-weight: 600;
+  color: green;
+}
+
+#Book_details .related-book-details .related-book-content .related-book-owner p {
+  font-size: 15px;
+  font-weight: 600;
+  margin-bottom: 1px;
+  margin-top: -12px;
+}
+
+#Book_details .related-book-details .related-book-content .related-book-owner p span {
+  color: #eb6a1f;
+}
+
+#Book_details .related-book-details .related-book-content .customer-book-rating i {
+  color: #eb6a1f;
+  font-size: 12px;
+}
+
 /* =================================== Book Details Page End =========================================== */
+
+/* =================================== Blog Page Start =========================================== */
+#Blog_feature .title-area h2 {
+  font-size: 2.5rem;
+}
+
+#Blog_feature .title-area {
+  margin: 0 20px;
+}
+
+#Blog_feature .title-area h2 span {
+  color: #eb6a1f;
+}
+
+#Blog_feature .blog-feature-area .feature-this-month-area .blog-feature-img img {
+  width: 100%;
+  height: 215px;
+}
+
+#Blog_feature .blog-feature-area h4 {
+  font-size: 22px;
+  font-weight: 700;
+  padding: 10px 0;
+}
+
+#Blog_feature .blog-feature-area h4 span {
+  background-color: #eb6a1f;
+  color: white;
+  padding: 2px;
+  border-radius: 5px;
+}
+
+#Blog_feature .blog-details-latest-title h4 {
+  font-size: 22px;
+  font-weight: 700;
+  padding: 10px 0;
+}
+
+#Blog_feature .blog-details-latest-title h4 span {
+  background-color: #eb6a1f;
+  color: white;
+  padding: 2px;
+  border-radius: 5px;
+}
+
+#Blog_feature .blog-feature-area .feature-this-month-area .blog-feature-content .blog-category h6 span {
+  font-size: 14px;
+  background-color: #f5d5c2;
+  padding: 5px;
+  color: #eb6a1f;
+  border-radius: 6px;
+}
+
+#Blog_feature .blog-feature-area .feature-this-month-area .blog-feature-content .blog-feature-title h3 {
+  font-size: 20px;
+  font-weight: 700;
+  padding: 8px 0;
+}
+
+#Blog_feature .blog-feature-area .feature-this-month-area .blog-feature-content .blog-datetimeby img {
+  width: 25px;
+  height: 25px;
+  border-radius: 20px;
+}
+
+#Blog_feature .blog-feature-area .feature-this-month-area .blog-feature-content .blog-datetimeby p {
+  font-size: 13px;
+  color: rgb(116, 115, 115);
+  margin-left: 5px;
+  margin-top: 4px;
+}
+
+#Blog_feature .blog-feature-area .feature-this-month-area .blog-feature-content .blog-datetimeby p i {
+  font-size: 13px;
+  color: #eb6a1f;
+}
+
+#Blog_feature .blog-feature-area .feature-this-month-area .blog-feature-content .someText p {
+  font-size: 13px;
+  color: rgb(116, 115, 115);
+}
+
+#Blog_feature .blog-feature-area .feature-this-month-area .blog-feature-content .blog-read-button .btn_warning {
+  font-size: 15px;
+  color: #eb6a1f;
+  border: 1px solid #eb6a1f;
+  border-radius: 8px;
+  font-weight: 600;
+  padding: 5px 20px;
+}
+
+#Blog_feature .blog-feature-area .feature-this-month-area .blog-feature-content .blog-read-button .btn_warning:hover {
+  color: white;
+  background-color: #eb6a1f;
+}
+
+#Blog_feature .blog-feature-area .feature-this-month-area {
+  background-color: white;
+  box-shadow: -2px 10px 47px -26px;
+  padding: 20px;
+  border-radius: 12px;
+}
+
+/* ---------------------Popular poster area start---------------------- */
+
+#Blog_feature .blog-popular-posted-area .popular-posted-area .blog-feature-img img {
+  width: 100%;
+  height: 115px;
+}
+
+#Blog_feature .blog-popular-posted-area h4 {
+  font-size: 22px;
+  font-weight: 700;
+  padding: 10px 0;
+}
+
+#Blog_feature .blog-popular-posted-area h4 span {
+  background-color: #eb6a1f;
+  color: white;
+  padding: 2px;
+  border-radius: 5px;
+}
+
+#Blog_feature .blog-popular-posted-area .popular-posted-area .blog-feature-content .blog-category h6 span {
+  font-size: 12px;
+  background-color: #f5d5c2;
+  padding: 5px;
+  color: #eb6a1f;
+  border-radius: 6px;
+}
+
+#Blog_feature .blog-popular-posted-area .popular-posted-area .blog-feature-content .blog-feature-title h3 {
+  font-size: 17px;
+  font-weight: 700;
+  padding: 4px 0;
+  margin-bottom: 1px;
+}
+
+#Blog_feature .blog-popular-posted-area .popular-posted-area .blog-feature-content .blog-datetimeby img {
+  width: 22px;
+  height: 22px;
+  border-radius: 20px;
+}
+
+#Blog_feature .blog-popular-posted-area .popular-posted-area .blog-feature-content .blog-datetimeby p {
+  font-size: 13px;
+  color: rgb(116, 115, 115);
+  margin-left: 5px;
+  margin-top: 2px;
+  margin-bottom: 1px;
+}
+
+#Blog_feature .blog-popular-posted-area .popular-posted-area .blog-feature-content .blog-datetimeby p i {
+  font-size: 13px;
+  color: #eb6a1f;
+}
+
+#Blog_feature .blog-popular-posted-area .popular-posted-area .blog-feature-content .someText p {
+  font-size: 13px;
+  color: rgb(116, 115, 115);
+  margin-bottom: 1px;
+}
+
+#Blog_feature .blog-popular-posted-area .popular-posted-area .blog-feature-content .blog-read-button .btn_warning {
+  font-size: 15px;
+  color: #eb6a1f;
+  border: 1px solid #eb6a1f;
+  border-radius: 8px;
+  font-weight: 600;
+  padding: 5px 20px;
+}
+
+#Blog_feature .blog-popular-posted-area .popular-posted-area .blog-feature-content .blog-read-button .btn_warning:hover {
+  color: white;
+  background-color: #eb6a1f;
+}
+
+#Blog_feature .blog-popular-posted-area .popular-posted-area {
+  background-color: white;
+  box-shadow: -2px 10px 47px -26px;
+  padding: 22px;
+  border-radius: 12px;
+}
+
+/* ---------------------Popular poster area End---------------------- */
+/* ----------------------Recently Posted Area Start--------------------- */
+
+#Recently_posted .blog-recently-posted-area .blog-recently-posted-img img {
+  width: 100%;
+  height: 470px;
+}
+
+#Recently_posted .blog-recently-posted-area h2 {
+  font-size: 28px;
+  font-weight: 700;
+  padding: 10px 0;
+}
+
+#Recently_posted .blog-recently-posted-area h2 span {
+  background-color: #eb6a1f;
+  color: white;
+  padding: 5px;
+  border-radius: 5px;
+}
+
+#Recently_posted .blog-recently-posted-area .blog-recently-posted-content .blog-category h6 span {
+  font-size: 14px;
+  background-color: #f5d5c2;
+  padding: 5px 8px;
+  color: #eb6a1f;
+  border-radius: 6px;
+  font-weight: 600;
+}
+
+#Recently_posted .blog-recently-posted-area .blog-recently-posted-content .blog-recently-posted-title h3 {
+  font-size: 24px;
+  font-weight: 700;
+  padding: 8px 0;
+}
+
+#Recently_posted .blog-recently-posted-area .blog-recently-posted-content .blog-datetimeby img {
+  width: 25px;
+  height: 25px;
+  border-radius: 20px;
+}
+
+#Recently_posted .blog-recently-posted-area .blog-recently-posted-content .blog-datetimeby p {
+  font-size: 13px;
+  color: rgb(116, 115, 115);
+  margin-left: 5px;
+  margin-top: 4px;
+}
+
+#Recently_posted .blog-recently-posted-area .blog-recently-posted-content .blog-datetimeby p i {
+  font-size: 13px;
+  color: #eb6a1f;
+}
+
+#Recently_posted .blog-recently-posted-area .blog-recently-posted-content .someText p {
+  font-size: 16px;
+  color: rgb(116, 115, 115);
+  line-height: 28px;
+  text-align: justify;
+}
+
+#Recently_posted .blog-recently-posted-area .blog-recently-posted-content .blog-read-button .btn_warning {
+  font-size: 15px;
+  color: #eb6a1f;
+  border: 1px solid #eb6a1f;
+  border-radius: 8px;
+  font-weight: 600;
+  padding: 10px 30px;
+}
+
+#Recently_posted .blog-recently-posted-area .blog-recently-posted-content .blog-read-button .btn_warning:hover {
+  color: white;
+  background-color: #eb6a1f;
+}
+
+/* ----------------------Recently Posted Area End--------------------- */
+/* =================================== Blog Page End =========================================== */
+
+/* =================================== Blog Details Page Start =========================================== */
+#Blog_details .blog-details-area .blog-details-top-content .publish-date p {
+  font-size: 14px;
+  color: darkgray;
+  font-weight: 600;
+}
+
+#Blog_details .blog-details-area .blog-details-top-content .publish-date p span {
+  color: #eb6a1f;
+}
+
+#Blog_details .blog-details-area .blog-details-top-content .blog-details-title h2 {
+  font-size: 28px;
+  font-weight: 700;
+}
+
+#Blog_details .blog-details-area .blog-details-top-content .someText p {
+  font-size: 15px;
+}
+
+#Blog_details .blog-details-area .blog-details-top-content .blog-details-social-icon .icon i {
+  font-size: 20px;
+  color: #eb6a1f;
+  background-color: #f8f6f4;
+  padding: 10px;
+  border-radius: 20px;
+  margin-left: 8px;
+}
+
+#Blog_details .blog-details-area .blog-slider-area .blog-slide .blog-slide-images img {
+  width: 100%;
+  height: 425px;
+}
+
+#Blog_details .blog-details-area .blog-slider-area .blog-slide-content p {
+  font-size: 16px;
+  line-height: 28px;
+  text-align: justify;
+}
+
+#LeaveA_reply .blog-leaveAreply_area .leave-reply-title h4 {
+  font-size: 22px;
+  font-weight: 700;
+}
+
+#LeaveA_reply .blog-leaveAreply_area .leave-reply-title p {
+  font-size: 15px;
+  font-weight: 600;
+}
+
+#LeaveA_reply .blog-leaveAreply_area .leaveA-reply-form label {
+  font-size: 15px;
+  font-weight: 600;
+}
+
+#LeaveA_reply .blog-leaveAreply_area .leaveA-reply-form .btn_warning {
+  font-size: 15px;
+  background-color: #eb6a1f;
+  border: 1px solid #eb6a1f;
+  border-radius: 8px;
+  font-weight: 600;
+  padding: 10px 50px;
+  color: white;
+}
+
+#LeaveA_reply .blog-leaveAreply_area .leaveA-reply-form .btn_warning:hover {
+  background-color: white;
+  border: 1px solid #eb6a1f;
+  color: #eb6a1f;
+}
+
+#LeaveA_reply .blog-leaveAreply_area .leaveA-reply-form {
+  background-color: white;
+  border: 1px solid white;
+  border-radius: 12px;
+  box-shadow: -2px 10px 47px -26px;
+  padding: 20px;
+}
+
+#LeaveA_reply .blog-leaveAreply_area .comments-area .comment-title h4 {
+  font-size: 22px;
+  font-weight: 700;
+}
+
+#LeaveA_reply .blog-leaveAreply_area .comments-area .comment .comment-author-img img {
+  width: 50px;
+  height: 50px;
+  margin-right: 10px;
+}
+
+#LeaveA_reply .blog-leaveAreply_area .comments-area .comment .comment-author-img .name h6 {
+  font-size: 15px;
+  font-weight: 600;
+  margin-bottom: 5px;
+  margin-top: 5px;
+}
+
+#LeaveA_reply .blog-leaveAreply_area .comments-area .comment .comment-author-img .name h6 span {
+  background-color: rgb(248, 219, 219);
+  padding: 2px 8px;
+  color: #eb6a1f;
+  border-radius: 12px;
+}
+
+#LeaveA_reply .blog-leaveAreply_area .comments-area .comment .comment-author-img .name p {
+  font-size: 13px;
+  color: darkgray;
+}
+
+#LeaveA_reply .blog-leaveAreply_area .comments-area .comment p {
+  font-size: 13px;
+  text-align: justify;
+}
+
+#LeaveA_reply .blog-leaveAreply_area .comments-area .comment {
+  border: 1px solid rgb(223, 220, 220);
+  border-radius: 12px;
+  padding: 20px;
+}
+
+#LeaveA_reply .top-cat-title h4 {
+  font-size: 22px;
+  font-weight: 700;
+}
+
+#LeaveA_reply .top-cat-title h4 span {
+  background-color: #eb6a1f;
+  padding: 2px 5px;
+  color: white;
+  border-radius: 6px;
+}
+
+#LeaveA_reply .categories-hints p {
+  font-size: 15px;
+  font-weight: 600;
+  margin-bottom: 2px;
+}
+
+#LeaveA_reply .categories-hints {
+  border-bottom: 2px dotted rgb(243, 221, 221);
+  margin-bottom: 12px;
+}
+
+#LeaveA_reply .tag-search-area .teg-search-title h4 {
+  font-size: 22px;
+  font-weight: 700;
+}
+
+#LeaveA_reply .tag-search-area .teg-search-title h4 span {
+  background-color: #eb6a1f;
+  padding: 2px 5px;
+  color: white;
+  border-radius: 6px;
+}
+
+#LeaveA_reply .tag-search-area .tag-area .tags p span {
+  font-size: 13px;
+  border: 1px solid rgb(252, 225, 225);
+  padding: 10px 15px;
+  border-radius: 6px;
+  color: black;
+}
+
+#LeaveA_reply .tag-search-area .tag-area .tags .tag_btn {
+  color: #686868;
+  padding: 10px 15px;
+  font-size: 14px;
+  border-radius: 0;
+  border: 1px solid rgb(252, 225, 225);
+  border-radius: 6px;
+  margin: 5px 5px 5px 0;
+  transition: 1s;
+  background-color: #f2f0f0;
+}
+
+#LeaveA_reply .tag-search-area .tag-area .tags .tag_btn:hover {
+  background-color: #eb6a1f;
+  border: #eb6a1f;
+  color: white;
+}
+
+/* =================================== Blog Details Page End =========================================== */
+
+/* =================================== Course Details Page Start =========================================== */
+#Course_details .course-details-title h2 {
+  font-size: 28px;
+  font-weight: 700;
+}
+
+#Course_details .course-details-title p {
+  font-size: 15px;
+}
+
+#Course_details .course-details-title .customer-book-rating i {
+  font-size: 15px;
+  color: #eb6a1f;
+}
+
+#Course_details .course-details-video iframe {
+  width: 100%;
+  height: 490px;
+  margin-top: 15px;
+  margin-bottom: 20px;
+}
+
+#Course_details .course-description-area .course-description-tab-button .nav-pills .nav-link.active,
+.nav-pills .show>.nav-link {
+  /* color: var(--bs-nav-pills-link-active-color); */
+  background-color: #f7f4f4;
+  color: black;
+  padding: 10px 100px;
+  border-bottom: 3px solid #eb6a1f;
+}
+
+#Course_details .course-description-area .course-description-tab-button .nav-link {
+  padding: 10px 60px;
+  color: black;
+  background: 0 0;
+  font-weight: 700;
+  background-color: #f7f4f4;
+  margin-right: 5px;
+}
+
+#Course_details .course-description-area .overview-area .overview-title h4 {
+  font-size: 24px;
+  font-weight: 700;
+  margin: 15px 0;
+}
+
+#Course_details .course-description-area .overview-area .overview-content p {
+  font-size: 16px;
+  line-height: 28px;
+  text-align: justify;
+}
+
+#Course_details .course-description-area .overview-area .learn-this-course .learn-course-text .text i {
+  font-size: 16px;
+  color: green;
+  margin: 5px 5px 0 0;
+}
+
+#Course_details .course-description-area .overview-area .learn-this-course .learn-course-text .text p {
+  font-size: 16px;
+  line-height: 28px;
+  text-align: justify;
+}
+
+#Course_details .course-description-area .overview-area .learn-this-course .learn-course-title h4 {
+  font-size: 24px;
+  font-weight: 700;
+}
+
+#Course_details .course-description-area .overview-area .learn-this-course {
+  background-color: #EEF7F0;
+  padding: 30px;
+}
+
+#Course_details .course-description-area .overview-area .course-curriculum-area .course-curriculum-title h4 {
+  font-size: 24px;
+  font-weight: 700;
+}
+
+#Course_details .course-description-area .overview-area .course-curriculum-area .main-accordian .accordion-item h4 button {
+  font-size: 18px;
+  font-weight: 600;
+}
+
+#Course_details .course-description-area .overview-area .course-curriculum-area .main-accordian .accordion-item h5 button {
+  font-size: 16px;
+  font-weight: 600;
+}
+
+#Course_details .course-description-area .overview-area .course-curriculum-area .main-accordian .accordion-button:not(.collapsed) {
+  background-color: white;
+}
+
+#Course_details .course-description-area .overview-area .course-curriculum-area .main-accordian .accordion-button:not(.collapsed)::after {
+  background-color: #eb6a1f;
+  color: white;
+  border-radius: 20px;
+}
+
+#Course_details .course-description-area .overview-area .course-curriculum-area .main-accordian .accordion-button::after {
+  background-color: #f0b897;
+  border-radius: 20px;
+}
+
+#Course_details .course-description-area .overview-area .course-curriculum-area .accordion-body .accordion-body-content .text i {
+  font-size: 30px;
+  color: #0aa350;
+  margin-right: 8px;
+}
+
+#Course_details .course-description-area .overview-area .course-curriculum-area .accordion-body .accordion-body-content .text p {
+  font-size: 15px;
+  margin-top: 5px;
+}
+
+#Course_details .course-description-area .overview-area .course-curriculum-area .accordion-body .accordion-body-content .v-button p {
+  font-size: 15px;
+  background-color: #eb6a1f;
+  padding: 4px 15px 2px 15px;
+  border-radius: 10px;
+  color: white;
+}
+
+#Course_details .course-description-area .overview-area .who-this-course-area .title h4 {
+  font-size: 24px;
+  font-weight: 700;
+}
+
+#Course_details .course-description-area .overview-area .who-this-course-area .who-this-course-text p {
+  font-size: 16px;
+  color: gray;
+}
+
+#Course_details .course-description-area .overview-area .who-this-course-area .who-this-course-text p span i {
+  font-size: 18px;
+  color: #eb6a1f;
+}
+
+#Course_details .course-description-area .overview-area .course-requirment-area .title h4 {
+  font-size: 24px;
+  font-weight: 700;
+}
+
+#Course_details .course-description-area .overview-area .course-routine-area .title h4 {
+  font-size: 24px;
+  font-weight: 700;
+}
+
+#Course_details .course-description-area .overview-area .course-routine-area .course-routine-form {
+  background-color: white;
+  border: 1px solid rgb(226, 224, 224);
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: -2px 10px 47px -26px;
+}
+
+#Course_details .course-description-area .overview-area .course-routine-area .course-routine-form .table thead {
+  border-bottom: 1px solid rgb(233, 230, 230);
+}
+
+/* =================================== Course Details Page End =========================================== */
