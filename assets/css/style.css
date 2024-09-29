@@ -3515,4 +3515,333 @@ p {}
   border-bottom: 1px solid rgb(233, 230, 230);
 }
 
+#Course_details .course-instructor-area .instructor-title h4 {
+  font-size: 24px;
+  font-weight: 700;
+}
+
+#Course_details .course-instructor-area .instructor-img img {
+  width: 135px;
+  height: 135px;
+  margin-right: 10px;
+}
+
+#Course_details .course-instructor-area .instructor-img .instructor-text h6 {
+  font-size: 18px;
+  font-weight: 600;
+  margin-top: 8px;
+}
+
+#Course_details .course-instructor-area .instructor-img .instructor-text p {
+  font-size: 15px;
+  margin-bottom: 1px;
+}
+
+#Course_details .course-instructor-area .instructor-img .instructor-text .instructor-rating i {
+  color: #eb6a1f;
+}
+
+#Course_details .course-instructor-area .instructor-img .instructor-text .instructor-rating span {
+  font-size: 15px;
+  margin-right: 10px;
+}
+
+#Course_details .course-instructor-area .instructor-area {
+  background-color: white;
+  padding: 20px;
+  box-shadow: -2px 10px 47px -26px;
+  border-radius: 8px;
+}
+
+#Course_details .course-rating-area .rating-area .main-rating {
+  background-color: white;
+  padding: 20px;
+  box-shadow: -2px 10px 47px -26px;
+  border-radius: 8px;
+  text-align: center;
+}
+
+#Course_details .course-rating-area .rating-area .main-rating h2 {
+  font-size: 28px;
+  font-weight: 700;
+}
+
+#Course_details .course-rating-area .rating-area .main-rating .rating i {
+  font-size: 15px;
+  color: #eb6a1f;
+}
+
+#Course_details .course-rating-area .rating-area .rating-star .rating i {
+  font-size: 15px;
+  color: #eb6a1f;
+}
+
+#Course_details .course-rating-area .rating-area .main-rating p {
+  font-size: 15px;
+}
+
+#Course_details .course-rating-area .title h4 {
+  font-size: 24px;
+  font-weight: 700;
+}
+
+#Course_details .course-rating-area .rating-area .rating-line p {
+  color: red;
+  background-color: #f0b897;
+}
+
+#Course_details .course-rating-area .rating-area .progress-bar-container .progress-row {
+  display: flex;
+  align-items: center;
+  margin-bottom: 10px;
+  background-color: #faeee3;
+  height: 15px;
+  margin-bottom: 18px;
+}
+
+#Course_details .course-rating-area .rating-area .progress-bar-container .progress-row span {
+  font-size: 15px;
+  font-weight: 600;
+  background-color: white;
+}
+
+#Course_details .course-rating-area .rating-area .progress-bar-container .progress-bar-75 {
+  background-color: #eb6a1f;
+  height: 10px;
+  border-radius: 5px;
+  flex: 1;
+  margin-right: 22%;
+}
+
+#Course_details .course-rating-area .rating-area .progress-bar-container .progress-bar-45 {
+  background-color: #eb6a1f;
+  height: 10px;
+  border-radius: 5px;
+  flex: 1;
+  margin-right: 52%;
+}
+
+#Course_details .course-rating-area .rating-area .progress-bar-container .progress-bar-21 {
+  background-color: #eb6a1f;
+  height: 10px;
+  border-radius: 5px;
+  flex: 1;
+  margin-right: 76%;
+}
+
+#Course_details .course-rating-area .rating-area .progress-bar-container .progress-bar-12 {
+  background-color: #eb6a1f;
+  height: 10px;
+  border-radius: 5px;
+  flex: 1;
+  margin-right: 85%;
+}
+
+#Course_details .course-rating-area .rating-area .progress-bar-container .progress-bar-5 {
+  background-color: #eb6a1f;
+  height: 10px;
+  border-radius: 5px;
+  flex: 1;
+  margin-right: 88%;
+}
+
+#Course_details .course-rating-area .rating-area .progress-bar-container .percentage {
+  font-size: 14px;
+  color: #333;
+  white-space: nowrap;
+}
+
+#Course_details .student-feedback-area .feedback-top .title h4 {
+  font-size: 24px;
+  font-weight: 700;
+}
+
+#Course_details .student-feedback-area .feedback-top .dropdown-rating .dropdown button {
+  font-size: 15px;
+  border: 1px solid #eb6a1f;
+  border-radius: 5px;
+  padding: 10px 20px;
+}
+
+#Course_details .student-feedback-area .feedback-area .feedback-author-img img {
+  width: 45px;
+  height: 45px;
+  margin-right: 10px;
+}
+
+#Course_details .student-feedback-area .feedback-area .feedback-author-img .feedback-text h6 {
+  font-size: 18px;
+  font-weight: 600;
+  margin-top: 5px;
+  margin-bottom: 1px;
+}
+
+#Course_details .student-feedback-area .feedback-area .feedback-author-img .feedback-text h6 span {
+  font-size: 14px;
+  color: #aaa;
+}
+
+#Course_details .student-feedback-area .feedback-area .feedback-author-img .feedback-text p {
+  font-size: 14px;
+  text-align: justify;
+}
+
+#Course_details .student-feedback-area .feedback-area .feedback-author-img .feedback-rating i {
+  font-size: 14px;
+  color: #eb6a1f;
+}
+
+#Course_details .student-feedback-area .feedback-area .feedback-author-img {
+  border-bottom: 1px solid #e7e6e6;
+}
+
+#Course_details .comment-box-area .title h4 {
+  font-size: 24px;
+  font-weight: 700;
+}
+
+#Course_details .comment-box-area .box button {
+  border: 1px solid #eb6a1f;
+  border-radius: 8px;
+  padding: 10px 40px;
+  font-weight: 600;
+}
+
+#Course_details .comment-box-area .box button:hover {
+  background-color: #eb6a1f;
+  color: white;
+}
+
+#Course_details .course-cart-area {
+  background-color: white;
+  box-shadow: -2px 10px 47px -26px;
+  padding: 20px;
+  border-radius: 10px;
+}
+
+#Course_details .course-cart-area .course-price h4 {
+  font-size: 22px;
+  font-weight: 700;
+}
+
+#Course_details .course-cart-area .course-price h4 s {
+  font-size: 16px;
+  font-weight: 600;
+}
+
+#Course_details .course-cart-area .course-price .discount p {
+  font-size: 16px;
+  font-weight: 600;
+  background-color: #fceded;
+  padding: 6px;
+  border-radius: 8px;
+  color: #eb6a1f;
+  margin-bottom: 0;
+}
+
+#Course_details .course-cart-area .left-days p {
+  font-size: 15px;
+  font-weight: 600;
+  color: red;
+  border-bottom: 1px solid rgb(231, 229, 229);
+}
+
+#Course_details .course-cart-area .course-short-description .description-column p {
+  font-size: 15px;
+}
+
+#Course_details .course-cart-area .course-short-description .description-column p i {
+  color: #c5c3c3;
+}
+
+#Course_details .course-cart-area .coupon-code-area .title h5 {
+  font-size: 18px;
+  font-weight: 600;
+}
+
+#Course_details .course-cart-area .coupon-code-area .promo-code-container {
+  display: flex;
+  align-items: center;
+  border: 1px solid #ff7a32;
+  border-radius: 5px;
+  padding: 5px;
+}
+
+#Course_details .course-cart-area .coupon-code-area .promo-code-container .promo-input {
+  flex: 1;
+  border: none;
+  padding: 5px;
+  outline: none;
+  font-size: 14px;
+  color: #777;
+}
+
+#Course_details .course-cart-area .coupon-code-area .promo-code-container .promo-button {
+  background-color: transparent;
+  color: #ff7a32;
+  border: none;
+  font-size: 14px;
+  font-weight: bold;
+  cursor: pointer;
+  padding: 5px 10px;
+}
+
+#Course_details .course-cart-area .coupon-code-area .promo-code-container .promo-input::placeholder {
+  color: #aaa;
+}
+
+#Course_details .course-cart-area .coupon-code-area .promo-code-container .promo-code-container:focus-within {
+  border-color: #ff7a32;
+}
+
+#Course_details .course-cart-area .course-purchase-button h6 {
+  text-align: center;
+  border: 1px solid #eb6a1f;
+  background-color: #eb6a1f;
+  padding: 10px;
+  color: white;
+  font-size: 16px;
+  font-weight: 600;
+  margin-top: 10px;
+  border-radius: 8px;
+}
+
+#Course_details .course-cart-area .course-purchase-button p {
+  font-size: 13px;
+  color: rgb(179, 178, 178);
+}
+
+#Course_details .course-cart-area .course-purchase-button {
+  border-bottom: 1px solid rgb(231, 229, 229);
+  border-top: 1px solid rgb(231, 229, 229);
+  margin: 10px 0;
+}
+
+#Course_details .course-cart-area .course-includes-area h5 {
+  font-size: 18px;
+  font-weight: 700;
+  padding: 15px 0;
+}
+
+#Course_details .course-cart-area .course-includes-area p {
+  font-size: 15px;
+}
+
+#Course_details .course-cart-area .course-includes-area p i {
+  color: #eb6a1f;
+  margin-right: 5px;
+  width: 15px;
+}
+
+#Course_details .course-cart-area .cart-contact h5 {
+  font-size: 18px;
+  font-weight: 700;
+}
+
+#Course_details .course-cart-area .cart-contact h4 {
+  font-size: 22px;
+  font-weight: 700;
+  color: #eb6a1f;
+}
+
 /* =================================== Course Details Page End =========================================== */
