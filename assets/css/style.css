@@ -443,6 +443,12 @@ p {}
 .master-exam-text-comtent .master-exam-button .details-button {
   margin-right: 20px;
 }
+.master-exam-text-comtent .master-exam-button .details-button a{
+color: #eb6a1f;
+}
+.master-exam-text-comtent .master-exam-button .details-button:hover a{
+color: white;
+}
 
 .exam-package-area .package-exam-image img {
   width: 100%;
@@ -476,6 +482,9 @@ p {}
   color: #eb6a1f;
   border: 0;
   margin-bottom: 15px;
+}
+.exam-package-area .package-exam-content .button-and-price .package-exam-button .package-exam-details a {
+  color: #eb6a1f;
 }
 
 .exam-package-area .package-exam-content .button-and-price .package-exam-button button {
@@ -1187,8 +1196,9 @@ p {}
 
 /* ----------------- Home Slider Section Start ---------------------------- */
 #Home_main_banner .home-1st-slide .home-1st-slide-img img {
-  width: 275px;
+  width: 280px;
   height: 330;
+  padding: 0 4px;
 }
 
 #Home_main_banner .main-banner-video iframe {
@@ -2336,7 +2346,7 @@ p {}
   padding: 15px 0;
 }
 
-#Signup .signup-area .signup-form-area h6 span {
+#Signup .signup-area .signup-form-area h6 span a{
   color: #eb6a1f;
   font-weight: 700;
 }
@@ -2738,6 +2748,9 @@ p {}
   border: 0;
   margin-bottom: 15px;
   /* border-bottom: 1px solid gray; */
+}
+#All_book .book-area .book-content .button-and-price .book-button .book-details a {
+  color: #eb6a1f;
 }
 
 #All_book .book-area .book-content .button-and-price .book-button button {
